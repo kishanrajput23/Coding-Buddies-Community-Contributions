@@ -9,7 +9,7 @@ A python program that encodes and decodes text using AES Encode.
 
 ### How to run the script
 
-> python aes_encode.py "a text"
+`python aes_encode.py "a text"`
 
 Example:
 ```
