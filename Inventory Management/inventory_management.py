@@ -108,4 +108,5 @@ def show():
 insert = Button(Inventory_management_frame, text="Insert",command=insert,width=12,background= "crimson",fg= "white",font=("arial",10,"bold")).place(x=20,y=262)
 show = Button(Inventory_management_frame, text="Show",command=show, width=12,background= "crimson",fg= "white",font=("arial",10,"bold")).place(x=130,y=262)
 
+
 root.mainloop()
