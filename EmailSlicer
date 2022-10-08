@@ -1,0 +1,7 @@
+email_id = input("Enter Your Email ID: ").strip()
+
+username = email_id[:email_id.index('@')]
+
+domain = email_id[email_id.index('@')+1:]
+
+print(f"Your Username is {username} and Your Domain is {domain}")
