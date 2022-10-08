@@ -14,7 +14,6 @@ We’re going to make a mini project on Inventory Management using python.
 
 # Video
 
-
 https://user-images.githubusercontent.com/98278731/193988425-a6f21a65-94e2-423b-b059-33dd0acbd528.mp4
 
 
