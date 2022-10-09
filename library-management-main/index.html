@@ -1,0 +1,218 @@
+<html>
+<head>
+<title>CITY CENTRAL LIBRARY</title>
+<link rel="icon" type="image/x-icon" href="https://www.pikpng.com/pngl/m/55-558304_open-book-logo-design-png-clipart.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header"
+    "article ads"
+    "about about"
+    "footer footer";
+  grid-template-rows:16vh 1fr 50vh 30vh;  
+  grid-template-columns: 1fr 20%;
+  grid-row-gap:1px;
+  grid-column-gap: 10px;
+  margin: 2px;
+  font-family: montserrat;
+ 
+}  
+
+#pageheader {
+  grid-area: header;
+  background: #eee;
+  font-family:Garamond, serif;
+}
+
+
+#mainarticle { 
+  grid-area: article;      
+}
+#sideAds { 
+  grid-area: ads;  
+  background-image: url("https://i.pinimg.com/236x/7b/b8/a1/7bb8a1c2902ef64ebd058249a369de5e.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+} 
+#about { 
+  grid-area: about; 
+}
+#pagefooter {
+  grid-area: footer;
+  background-color: #D3D3D3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+/* header */
+
+header{
+  display: grid;
+  grid-template-columns:30% 70%;
+  grid-column-gap: 0;
+}
+#text h3{
+  padding:.3em .5em;
+  margin: 0;
+  color:#191970;
+}
+
+a:link,a:visited{color:black;}
+
+/* nav */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#66cc92;
+  
+}
+.nav {float: left; 
+}
+
+ li a  {
+  display: inline-block;
+  font-size: 17px;
+  padding: 10px 30px;
+  margin:30px 30px;
+  text-decoration: none;
+  color:black;
+}
+.active{
+  background-color: #20B2AA;
+}
+
+li a:hover {background-color: #20B2AA;}
+
+
+/* mainarticle */
+
+.frontview {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+  <header id="pageheader">
+
+    <div>
+	<img src="https://www.pikpng.com/pngl/m/55-558304_open-book-logo-design-png-clipart.png" alt="CCL logo" width="200vw" height="auto" style="float:left;">
+    <div id="text" style="float:left;">
+	  <h3>CITY</h3>
+	  <h3>CENTRAL</h3>
+	  <h3>LIBRARY</h3>
+	</div>
+	</div>
+	<nav id="mainnav">
+  <ul id="nav">
+    <li class="nav"><a  class="active" href="index.html">Home</a></li>
+    <li class="nav"><a  href="sections.html" class="dropbtn">Sections</a></li>
+	<li class="nav"><a href="facilities.html">Facilities</a></li>
+	<li class="nav"><a href="ebooks.html">E-Books</a></li>
+	<li class="nav"><a  href="registration.html">Registration</a></li>	
+	
+   </ul>
+</nav>
+    	
+	
+	
+
+
+  </header>
+  
+
+
+<article id="mainarticle">
+  <div class="frontview">  
+    
+    <img style="border-radius:10px;margin: 10px;" src="https://archello.s3.eu-central-1.amazonaws.com/images/2017/07/05/Architecture-3d-model.1507346416.5539.jpg" alt="CCL front view image" width="1000" height="500">
+    <div class="text">CCL FRONT VIEW</div>
+   
+ </div>
+  
+</article>
+ 
+ <div id="sideads">
+    <marquee>**UPCOMING EVENT**</marquee>
+    <h2>AI Innovation 2022</h2>
+	<p>Innovative Speaker</p>
+	<h3>Dr.K.Abhisek Thakur.Ph.D</h3>
+	<h5>Professor,IIT kharagpur</p>
+	<p>Time:</p>
+	<p>10 A.M. to 1 P.M.</p> 
+    <p>Date:</p>
+    <p>22.02.2022 Tuesday</p>
+	<br><br><br>
+    <p>We request the honor of your presence</p>	
+ </div>
+ 
+<div id="about">
+  <h2>About CCL</h2>
+  <p style="text-indent:100px;">City Central Library has been started on January 25, 2020 by Mr.P. Durai Selvan IAS.CCL has seven floors
+with six lakhs books covering all subjects.The reading hall has been equiped with AC.Each floor has been specialized for particular group 
+of subject.We have beverage and snackes counters to serve at your table.CCL has digital library providing E-books,E-Audio books,E-Megazines, 
+CCL has a special section for braille books and digital braille section,Net browsing section in each floor.We have the borrowing option for 
+membership users.In CCL 1000 users can utilize at a time.CCL has built up in 10 acres with ample vehicle parking.CCL has a Conference Hall 
+consists of 550 seatings at the seventh floor.</p>
+<p style="text-indent:100px;">The library serves as a perfect reference point for academicians, students of Tamil history and culture, political speechwriters,
+and research scholars from foreign universities who are working on subjects related to South Asia and Southern India. Plus, in order to 
+support and encourage researchers and scholars, there is no fee charged; the library is free for reference. Lending of books
+is not allowed!</p>
+
+<p style="text-indent:100px;">There are books and categories to satisfy every reader – from biographies and novels to travelogues, folk literature, 
+astrology, philosophy, history, culture and more. It’s a three-storey library with walls stacked with books from floor to 
+ceiling. Some of the rare books include Veeramamunivar’s ‘Sathur Agarathy‘ (1842), a hand-written Tamil-Latin Dictionary (1867),
+French-Tamil Dictionary (1855), Swadeshi Geethangal (1908) by Subramaniya Bharathi, Bharathidasan collection of poems (1930),
+and several Tamil literary magazines from 1920 to 2010. The rarity of books, as well as Mr. Krishnamurthy’s enthusiasm to
+personally introduce readers to the rare gems is what makes book lovers flock to this private library.</p>
+  <p style="text-align:center">*****</p>
+</div>
+
+<footer id="pagefooter">
+  <div>
+    <p><i class="material-icons">schedule</i>Working Hours:</p>
+    <p>8 A.M. - 8 P.M.
+    <p>Monday - Sunday</p>
+  </div>
+
+  <div>
+    <p><i class="material-icons">room</i>Visit Us:</p>
+	<address>
+	City Central Library<br>
+	Near Law college,<br>
+	Fair Lands,<br>
+	Tirunelveli-07
+	</address>
+  </div>
+  <div>
+    <p>Contact Us:</p>
+    <p><i class="material-icons">phone</i>Phone: 0427-2563 2555,2563 2556</p>
+    <p><i class="material-icons">email</i>E-mail:cclslm@gmail.com</p> 
+  </div>  
+  
+</footer>
+
+ 
+  
+</body>
+</html>
