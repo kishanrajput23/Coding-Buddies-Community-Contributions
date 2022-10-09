@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>Registration~City Central Library</title>
+<link rel="icon" type="image/x-icon" href="https://www.pikpng.com/pngl/m/55-558304_open-book-logo-design-png-clipart.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header"
+	"main article"
+    "footer footer";
+   grid-template-rows:16vh 1fr 20vh;
+   grid-template-columns:40% 60%;
+   grid-row-gap: 10px;
+   margin: 0;   
+}  
+#pageheader {
+  grid-area: header;
+  background: #eee;
+  font-family:Garamond, serif;
+}
+#regform { 
+  grid-area: main; 
+}
+#features{  
+  grid-area:article   
+}
+#pagefooter {
+  grid-area: footer;
+  background: #D3D3D3;
+  text-align: center;
+}
+
+/* header */
+header{
+  display: grid;
+  grid-template-columns:30% 70%;
+  grid-column-gap: 0;
+}
+#text h3{
+  padding:.3em .5em;
+  margin: 0;
+  color:#191970;
+}
+/* nav */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#66cc92;
+  
+}
+.nav {float: left; 
+}
+
+ li a  {
+  display: inline-block;
+  font-size: 17px;
+  padding: 10px 30px;
+  margin:30px 30px;
+  text-decoration: none;
+  color:black;
+}
+.active{
+  background-color: #20B2AA;
+}
+
+li a:hover {background-color: #20B2AA;}
+
+
+/* form */
+form{
+  padding: 2em;
+  font-family: verdana, Helvetica, sans-serif;
+}
+input{
+    border: 2px solid #5F9EA0;
+    display: block;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 30vw;
+    padding: 10px;
+}
+form p{
+  color: red;
+  font-style: italic;
+  font-family: Times New Roman,serif;
+}
+#submit{
+    background-color: #008B8B;
+    color: white;
+    width: 30vw;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #20B2AA;
+	font-size:20px;
+}
+#submit:active{
+ font-size:18px;
+ background-color: #008B8B;
+}
+.feat{
+  list-style-type: square;
+}
+
+</style>
+</head>
+<body>
+ <header id="pageheader">
+    <div>
+	<img src="https://www.pikpng.com/pngl/m/55-558304_open-book-logo-design-png-clipart.png" alt="CCL logo" width="200vw" height="auto" style="float:left;">
+    <div id="text" style="float:left;">
+	  <h3>CITY</h3>
+	  <h3>CENTRAL</h3>
+	  <h3>LIBRARY</h3>
+	</div>
+	</div>
+	<nav id="mainnav">
+  <ul id="nav">
+    <li class="nav"><a  href="index.html">Home</a></li>
+    <li class="nav"><a   href="sections.html" class="dropbtn">Sections</a></li>
+	<li class="nav"><a  href="facilities.html">Facilities</a></li>
+	<li class="nav"><a  href="ebooks.html">E-Books</a></li>
+	<li class="nav"><a class="active" href="registration.html">Registration</a></li>
+   </ul>
+</nav>
+
+  </header>
+  
+<main class="regform">
+
+<form id="myform" action="" name="myform" method="post" onsubmit="return validation()">
+	
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+	  <p id="err1"></p>
+      <br>
+	
+      <label for="phone">Phone Number:</label>
+      <input type="num" id="phone" name="phone">
+	  <p id="err2"></p>
+      <br>
+	
+      <label for="email">E-mail:</label>
+      <input type="text" id="email" name="email">
+	  <p id="err3"></p>
+      <br>
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" placeholder="D.No.,Street address,PO,Taluk,District.">
+	  <p id="err4"></p>
+      <br>
+	
+      <button id="submit">Submit</button>
+
+</form> 
+</main>
+
+<article class="features">
+  <h2>Facilities for Library Members:</h2>	
+  <ol>
+    <li class="feat">Access to Digital library.</li>
+    <li class="feat">Can extend borrowing time through digital account.</li>
+    <li class="feat">Access to WIFI facility in the library.</li>
+	<li class="feat">Get notification on library events.</li>
+    <li class="feat">Can use at food court for later payments(limited).</li>
+	
+  </ol>
+  <h2>Application process:</h2>
+  <ol>
+    <li class="feat">Register your detail on our website.</li>
+    <li class="feat">Our staff will contact you for further steps.</li>
+    <li class="feat">After creating membership account secret barcode will send to you.</li>
+    <li class="feat">You can get E-card at our library.</li>	
+  </ol> 
+  <h3>Notes:</h3>
+   <p>*You will get a notice when your E-card is about to expire.To renew your account, please contact the library in person, by phone, or online.</</p>
+   <p>*If you lose your E-library card, please contact us as soon as possible. Library staff can stop your card until it can be found or replaced. You are responsible for all materials checked out on your library card until its loss is reported.</p>	 
+</article>
+
+
+<footer id="pagefooter">
+  <h3>Ask Us</h3>
+  <p>If you need help or have a question regarding joining as a member, You can reach Library staff by email or phone during open hours.</p>
+  <p><i class="material-icons">phone</i>Phone: 0427-2563 2555,2563 2556; <i class="material-icons">email</i>E-mail:cclslm@gmail.com</p>
+  
+</footer>
+
+<script src="registration.js"></script>
+  
+</body>
+</html>
