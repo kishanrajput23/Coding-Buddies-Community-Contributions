@@ -1,0 +1,28 @@
+body 
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*background: #0e1010;*/
+}
+
+#unique 
+{
+	margin: 0;
+	padding: 15px;
+	text-align: center;
+	color: #efefef;
+	background: #000;
+}
+.container 
+{
+    margin: 176px 0 0 0;
+    text-align: center;
+    font-size: 28px;
+}
+
+
+
+
+
+
