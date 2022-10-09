@@ -3,4 +3,4 @@
 ## It's my First Contributions
 
 ### Screenshot
-(/image/clok.jpeg)
+![karanjot](/image/clok.jpeg)
