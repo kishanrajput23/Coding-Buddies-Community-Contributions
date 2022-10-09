@@ -1,0 +1,49 @@
+Python Program to Run JavaScript in Python
+'''
+
+"""
+Equivalent Python code:
+
+# Example 1:          
+print("Running JavaScript in Python")
+            
+#Example 2:            
+def add(x, y):
+    return x + y
+    
+"""
+
+
+# Import the necessary module!
+import js2py
+
+# JavaScript command
+# Use of eval.js method from js2py module here, 
+# Pass in our js code in it and store it in res1.
+js_1 = 'console.log("Running JavaScript in Python")'
+
+res1 = js2py.eval_js(js_1)
+
+# Print the result
+res1
+
+########################################################
+
+# JavaScript function
+
+# Ask for user input
+x = int(input("Enter value of x: "))
+js_2 = '''function add(x, y){
+    return x + y;
+    }'''
+# Use of eval.js method from js2py module here, 
+# Pass in our js code in it and store it in res2.    
+res2 = js2py.eval_js(js_2)
+
+# Print the result
+print("Result: x + 3 =", res2(x,3))
+'Running JavaScript in Python'
+Enter value of x: 6
+Result: x + 3 = 9
+ 
+
