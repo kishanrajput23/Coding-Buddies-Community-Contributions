@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Facilities~CITY CENTRAL LIBRARY</title>
+<link rel="icon" type="image/x-icon" href="https://www.pikpng.com/pngl/m/55-558304_open-book-logo-design-png-clipart.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+<style>
+
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header"
+	"main"
+    "footer";
+  grid-template-rows:16vh 1fr 30vh;  
+  grid-row-gap:1px;
+  margin: 2px;
+  font-family: montserrat;
+}  
+#pageheader {
+  grid-area: header;
+  background: #eee;
+  font-family:Garamond, serif;
+}
+#mainarticle { 
+  grid-area: main;   
+}   
+#pagefooter {
+  grid-area: footer;
+  background-color: #D3D3D3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+/* header */
+header{
+  display: grid;
+  grid-template-columns:30% 70%;
+  grid-column-gap: 0;
+}
+#text h3{
+  padding:.3em .5em;
+  margin: 0;
+  color:#191970;
+}
+/* nav */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#66cc92;
+  
+}
+.nav {float: left; 
+}
+
+ li a  {
+  display: inline-block;
+  font-size: 17px;
+  padding: 10px 30px;
+  margin:30px 30px;
+  text-decoration: none;
+  color:black;
+}
+.active{
+  background-color: #20B2AA;
+}
+
+li a:hover {background-color: #20B2AA;}
+
+
+/* main article */
+
+.innergrid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 20px;
+  margin:20px;
+  }
+.innergrid > article {
+  border: 1px solid #ccc;
+ box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+.innergrid > article:hover{
+border: 1px solid #ccc;
+ box-shadow: 0px 0px 6px 3px  #1400cc;
+}
+
+
+.innergrid > article img {
+width:600px;
+height:350px;
+padding:20px;
+
+}
+.text h3{
+    text-align:center;
+	margin-top:0;
+}
+.text ul{
+    list-style-type: none;
+    margin-top: 15px ;
+}
+
+
+.text ul li{
+    padding: 7px 10px;
+}
+.text ul li i{
+    color: yellow;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+<header id="pageheader">
+    <div>
+	<img src="https://www.pikpng.com/pngl/m/55-558304_open-book-logo-design-png-clipart.png" alt="CCL logo" width="200vw" height="auto" style="float:left;">
+    <div id="text" style="float:left;">
+	  <h3>CITY</h3>
+	  <h3>CENTRAL</h3>
+	  <h3>LIBRARY</h3>
+	</div>
+	</div>
+	<nav id="mainnav">
+  <ul id="nav">
+    <li class="nav"><a  href="index.html">Home</a></li>
+    <li class="nav"><a   href="sections.html" class="dropbtn">Sections</a></li>
+	<li class="nav"><a class="active" href="facilities.html">Facilities</a></li>
+	<li class="nav"><a  href="ebooks.html">E-Books</a></li>
+	<li class="nav"><a  href="registration.html">Registration</a></li>
+	
+   </ul>
+</nav>
+
+  </header>
+
+<main class="mainarticle">
+ 
+  <div class="innergrid">
+  <article>
+    <img src="images/f1.jpg" alt="Sample photo">
+     <div class = "text">
+                        <h3>Auditorium</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                700 persons can sit.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Equipeped with AC.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Equipped with projector.
+                            </li>
+                        </ul>
+                    </div>
+  </article>
+  <article>
+    <img src="images/f2.jpg" alt="Sample photo">
+   <div class = "text">
+                        <h3>Personal Reading Section</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Reservation Available.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Can order food from here.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Equipped with computer.
+                            </li>
+                        </ul>
+                    </div>
+  </article>
+  <article>
+    <img src="images/f3.jpg" alt="Sample photo">
+   <div class = "text">
+                        <h3>Food Court</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Snacks and beverages available.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                From 10 A.M. to 8 P.M.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Can order from you place.
+                            </li>
+                        </ul>
+                    </div>
+  </article>
+  <article>
+    <img src="images/f4.jpg" alt="Sample photo">
+   <div class = "text">
+                        <h3>Kids Library</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Kids story books available.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Kids can learn by the objects.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Computer access allowed to kids after 8 years.
+                            </li>
+                        </ul>
+                    </div>
+  </article>
+
+  </div>
+
+</main>
+
+
+<footer id="pagefooter">
+  <div>
+    <p><i class="material-icons">schedule</i>Working Hours:</p>
+    <p>8 A.M. - 8 P.M.
+    <p>Monday - Sunday</p>
+  </div>
+
+  <div>
+    <p><i class="material-icons">room</i>Visit Us:</p>
+	<address>
+	City Central Library<br>
+	Near Law college,<br>
+	Fair Lands,<br>
+	Tirunelveli-07
+	</address>
+  </div>
+  <div>
+    <p>Contact Us:</p>
+    <p><i class="material-icons">phone</i>Phone: 0427-2563 2555,2563 2556</p>
+    <p><i class="material-icons">email</i>E-mail:cclslm@gmail.com</p> 
+  </div>    
+</footer>
+  
+</body>
+</html>

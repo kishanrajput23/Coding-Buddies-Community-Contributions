@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Section~CITY CENTRAL LIBRARY</title>
+<link rel="icon" type="image/x-icon" href="https://www.pikpng.com/pngl/m/55-558304_open-book-logo-design-png-clipart.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header"
+	"main"
+    "footer";
+  grid-template-rows:16vh 1fr 30vh;  
+  grid-row-gap:1px;
+  margin: 2px;
+  font-family: montserrat;
+}  
+#pageheader {
+  grid-area: header;
+  background: #eee;
+  font-family:Garamond, serif;
+}
+#mainarticle { 
+  grid-area: main;   
+}   
+#pagefooter {
+  grid-area: footer;
+  background-color: #D3D3D3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+/* header */
+header{
+  display: grid;
+  grid-template-columns:30% 70%;
+  grid-column-gap: 0;
+}
+#text h3{
+  padding:.3em .5em;
+  margin: 0;
+  color:#191970;
+}
+/* nav */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#66cc92;
+  
+}
+.nav {float: left; 
+}
+
+ li a  {
+  display: inline-block;
+  font-size: 17px;
+  padding: 10px 30px;
+  margin:30px 30px;
+  text-decoration: none;
+  color:black;
+}
+.active{
+  background-color: #20B2AA;
+}
+
+li a:hover {background-color: #20B2AA;}
+
+
+/* main article */
+#inner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  justify-items: center;
+  margin: 2vh 0;
+}
+ #inner-grid div li{
+ list-style-type: none;
+}
+
+</style>
+</head>
+<body>
+<header id="pageheader">
+    <div>
+	<img src="https://www.pikpng.com/pngl/m/55-558304_open-book-logo-design-png-clipart.png" alt="CCL logo" width="200vw" height="auto" style="float:left;">
+    <div id="text" style="float:left;">
+	  <h3>CITY</h3>
+	  <h3>CENTRAL</h3>
+	  <h3>LIBRARY</h3>
+	</div>
+	</div>
+	<nav id="mainnav">
+  <ul id="nav">
+    <li class="nav"><a  href="index.html">Home</a></li>
+    <li class="nav"><a  class="active" href="sections.html" class="dropbtn">Sections</a></li>
+	<li class="nav"><a href="facilities.html">Facilities</a></li>
+	<li class="nav"><a href="ebooks.html">E-Books</a></li>
+	<li class="nav"><a  href="registration.html">Registration</a></li>
+		
+	
+   </ul>
+</nav>
+    	
+	
+	
+  </header>
+
+<main class="mainarticle">
+  <div id="inner-grid">
+  
+    <img src="https://www.siliconindia.com/news/newsimages/special/Uf672Cn5.jpeg" alt="Literature Books section image" style="width:45vw;height:350px;border-radius:10px;">
+    <div>  
+	  <h3>Literature Books </h3>
+      <p>First floor of this library is dedicated for literature. In this section wide range Tamil and English literature books are available.</p>
+	  <p>Available book formats in this section:</p>
+	  <ol>
+	    <li>Ancient Tamil literature</li>
+	    <li>Novels</li>
+	    <li>Poems</li>
+	    <li>Short Stories</li>
+	    <li>Drama</li>
+	    <li>Biography</li>
+	    <li>Auto Biography</li>
+		<li>Ancient Greek Literature</li>
+	  </ol>
+	</div>
+	  
+    <div>    
+	  <h3>Science Books</h3>
+      <p>Scond floor of this library is dedicated for Science with 1.2 lakhs books.</p>
+	  <p>Available subjects in this section:</p>
+	  <ol>
+	    <li>General Science</li>
+	    <li>Physics</li>
+	    <li>Chemistry</li>
+	    <li>Earth science & Geology</li>
+	    <li>Botany</li>
+	    <li>Zoology</li>
+	    <li>Applied Science - Basic</li>
+		<li>Mathematics</li>
+	  </ol>
+	</div>
+	  <img src="http://4.bp.blogspot.com/_i7Iu1LFSFEA/TSW-jahN_wI/AAAAAAAAAGg/DaG-ahFF6AA/s1600/CENT2.JPG" alt="Science books section image" style="width:45vw;height:350px;border-radius:10px;">
+	    
+	  <img src="https://smvmch.ac.in/images/Facilities/LIB_01.jpg" alt="Medicine books section image" style="width:45vw;height:350px;border-radius:10px;">
+	  <div>   
+	  <h3>Medicine Books</h3>
+      <p>Third floor has rich collection of Medicine books published by leading publishers across the world.</p>
+	  <p>Available subjects in this section:</p>
+	  <ol>
+	    <li>Medicine & Health</li>
+	    <li>Anatomy</li>
+	    <li>Psychiatry</li>
+	    <li>Dermatology</li>
+	    <li>Surgery and allied subjects</li>
+	    <li>Community Medicine</li>
+	    <li>Pharmacology</li>
+		<li>Gynaecology</li>
+		<li>Veterinary Science</li>
+	  </ol>
+	</div>  
+	  
+	<div>  
+	  <h3>Computer Science Books</h3>
+      <p>Fourth floor of this library is dedicated for computer science with 2 lakhs books.</p>
+	  <ol>
+	    <li>Artificial Intelligence</li>
+	    <li>Networking</li>
+	    <li>Operating Systems</li>
+	    <li>Cyber security </li>
+	    <li>VFX and Animation</li>
+	    <li>Web Designing</li>
+	    <li>Basics of Computer Science</li>
+		<li>Data Science.</li>
+	  </ol>
+	</div>
+	  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Fort_Worth_Library_Computer_Lab.jpg" alt="Computer Science Books" style="width:45vw;height:350px;border-radius:10px;">
+	  
+	  <img src="https://blog.architizer.com/wp-content/uploads/1-38.png" alt="Engineering and architecture books section image" style="width:45vw;height:350px;border-radius:10px;">
+	  <div>  
+	  <h3>Engineering and Architecture Books</h3>
+      <p>Fifth floor of this library is dedicated for Engineering and Architecture with 1.5 lakhs books.</p>
+	  <ol>
+	    <li>Aerodynamics</li>
+	    <li>Architectural Design</li>
+	    <li>Design and Manufacturing</li>
+	    <li>Materials and Structures</li>
+	    <li>Combustion and Energy Systems</li>
+	    <li>Acoustics and Fluid-Structure Interaction</li>
+	    <li>Biomechanics.</li>
+		<li>Building Science & Services</li>
+	  </ol>
+	</div>
+  
+  <div>  
+      <p>In sixth floor there are many subjects are covering with 2 lakhs books.</p>
+	  <p>Books available in his sections are:</p>
+	  <ol>
+	    <li>Law</li>
+	    <li>Economics</li>
+	    <li>Fine Arts</li>
+	    <li>Sports, Games & Entertainment </li>
+	    <li>History</li>
+	    <li>Geography</li>
+	    <li>Management</li>
+		<li>Accounting</li>
+		<li>Political science </li>
+	  </ol>
+	</div>
+  <img src="https://www.lib.uts.edu.au/sites/default/files/2021-02/_87A2954_UTS%20Central%20Library_hr-2.jpg" alt="Sixth floor image" style="width:45vw;height:350px;border-radius:10px;">
+	  
+  </div>
+</main>
+
+
+<footer id="pagefooter">
+  <div>
+    <p><i class="material-icons">schedule</i>Working Hours:</p>
+    <p>8 A.M. - 8 P.M.
+    <p>Monday - Sunday</p>
+  </div>
+
+  <div>
+    <p><i class="material-icons">room</i>Visit Us:</p>
+	<address>
+	City Central Library<br>
+	Near Law college,<br>
+	Fair Lands,<br>
+	Tirunelveli-07
+	</address>
+  </div>
+  <div>
+    <p>Contact Us:</p>
+    <p><i class="material-icons">phone</i>Phone: 0427-2563 2555,2563 2556</p>
+    <p><i class="material-icons">email</i>E-mail:cclslm@gmail.com</p> 
+  </div>    
+</footer>
+  
+</body>
+</html>
