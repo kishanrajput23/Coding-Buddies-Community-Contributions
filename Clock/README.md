@@ -3,4 +3,6 @@
 ## It's my First Contributions
 
 ### Screenshot
-![karanjot](/image/clok.jpeg)
+![alt text](https://github.com/Karanjot786/Coding-Buddies-Community-Contributions/blob/Clock/Clock/image/clock.jpeg)
+
+
