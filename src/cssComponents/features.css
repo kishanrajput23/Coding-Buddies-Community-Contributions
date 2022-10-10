@@ -1,0 +1,14 @@
+.features {
+  float: right;
+  color: #fff;
+}
+.features h2 {
+  font-size: 2rem;
+  color: #ffa600;
+  font-weight: 400;
+}
+.features p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #1b1717;
+}

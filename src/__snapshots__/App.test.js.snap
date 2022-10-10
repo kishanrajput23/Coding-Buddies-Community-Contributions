@@ -1,0 +1,2198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Admin Snapshot Test Checking Snapshot 1`] = `
+<div>
+  <div>
+    <nav
+      className="sticky-nav navbar navbar-expand-xl navbar-dark bg-dark"
+    >
+      <button
+        aria-controls="responsive-navbar-nav"
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse"
+        id="responsive-navbar-nav"
+      >
+        <img
+          alt="cg logo"
+          className="img-responsive"
+          src="logo.png"
+        />
+        <h2
+          className="heading"
+        >
+          Health Reminder 
+        </h2>
+        <div
+          className="ml-auto navbar-nav"
+          onKeyDown={[Function]}
+        >
+          <a
+            className="nav-link"
+            data-rb-event-key="/admin"
+            href="/admin"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Home
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/MentalList"
+            href="/MentalList"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Health Tips
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/DiseaseList"
+            href="/DiseaseList"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Disease
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/DietList"
+            href="/DietList"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Diet
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/doctorList"
+            href="/doctorList"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Doctors
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/patientList"
+            href="/patientList"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Patients
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/"
+            href="/"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Logout
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div
+    className="container"
+  >
+    <p>
+       
+    </p>
+    <h2>
+        Welcome Admin! 
+    </h2>
+    <p>
+       
+    </p>
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="mentalhealth.jpg"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Edit Health Tips
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to update the Mental Health Tips shown to the Patient Module
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              href="/MentalList"
+            >
+              Edit Health Tips
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="diseaseslong.webp"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Edit Diseases
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to update the List of Diseases shown to the Patient Module
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              href="/DiseaseList"
+            >
+              Edit Disease
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="updatediet.jpg"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Edit Diet
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to update Diet Information shown to the Patient Module
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              href="/DietList"
+            >
+              Edit Diets
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+     
+    <br />
+    <br />
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="doc_img.jpg"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Display All Doctors
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to Display All the Doctors and their details.
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              href="/DoctorList"
+            >
+              Show Doctors
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="patient12.jpg"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Display All Patients
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to Display All the Patients and their details.
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              href="/PatientList"
+            >
+              Show Patients
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App Snapshot Test Checking Snapshot 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <div>
+      <nav
+        className="sticky-nav navbar navbar-expand-xl navbar-dark bg-dark"
+      >
+        <button
+          aria-controls="responsive-navbar-nav"
+          aria-label="Toggle navigation"
+          className="navbar-toggler collapsed"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          aria-expanded={null}
+          className="navbar-collapse collapse"
+          id="responsive-navbar-nav"
+        >
+          <img
+            alt="cg logo"
+            className="img-responsive"
+            src="logo.png"
+          />
+          <h2
+            className="heading"
+          >
+            Health Reminder
+          </h2>
+          <div
+            className="ml-auto navbar-nav"
+            onKeyDown={[Function]}
+          >
+            <a
+              className="nav-link"
+              data-rb-event-key="/"
+              href="/"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+            >
+              Home
+            </a>
+            <a
+              className="nav-link"
+              data-rb-event-key="/admin"
+              href="/admin"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+            >
+              Admin
+            </a>
+            <a
+              className="nav-link"
+              data-rb-event-key="/patient"
+              href="/patient"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+            >
+              Patient
+            </a>
+            <a
+              className="nav-link"
+              data-rb-event-key="/doctor"
+              href="/doctor"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+            >
+              Doctor
+            </a>
+            <a
+              className="contact"
+              onClick={[Function]}
+            >
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div
+      className="container"
+    >
+      <p>
+         
+      </p>
+      <h2>
+         Welcome User! 
+      </h2>
+      <p>
+         
+      </p>
+      <div>
+        <p>
+           
+        </p>
+        <br />
+      </div>
+      <h2>
+        Features of our Web-App
+      </h2>
+      <br />
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-3 features"
+        >
+          <img
+            alt="img"
+            src="body.jpg"
+          />
+        </div>
+        <div
+          className="col-sm features"
+        >
+          <div>
+            <p>
+               
+            </p>
+          </div>
+          <p>
+            Create personalised medicine/diet alarms, and be notified via SMS/ Whatsapp.
+            <br />
+            Find a suitable diet for you according to your BMI in our app.
+            <br />
+             Keep track of your diet patterns regularly simply by logging in.
+            <br />
+             Win weekly streaks following your diet, with the help of our tracker!
+            <br />
+            Tell us how you feel mentally, and we'll help you fell better with our Health Tips.
+            <br />
+            Consult(Book appoinments with) a specialised Doctor via our application anywhere, anytime.
+            <br />
+             Save your medical history to your profile for easy consultations with Doctors. 
+            <br />
+             Search for a Disease and find precise information on our app.
+          </p>
+        </div>
+      </div>
+      <br />
+      <div
+        className="row"
+      >
+        <p>
+           
+        </p>
+        <div
+          className="col-sm"
+        >
+          <h2>
+            Identify yourself here
+          </h2>
+        </div>
+      </div>
+      <div>
+        <p>
+           
+        </p>
+      </div>
+      <div
+        className="row"
+      >
+        <p>
+           
+        </p>
+        <div
+          className="col-sm"
+        >
+          <div
+            className="card"
+            style={
+              Object {
+                "height": "37rem",
+              }
+            }
+          >
+            <img
+              className="card-img-top"
+              src="doc_img.jpg"
+              style={
+                Object {
+                  "height": "20rem",
+                }
+              }
+            />
+            <div
+              className="card-body"
+            >
+              <div
+                className="card-title h5"
+              >
+                <h5>
+                  Doctor
+                </h5>
+              </div>
+              <p
+                className="card-text"
+              >
+                <p>
+                  Click here to Login as a Doctor and get access to various features of filling up slots, looking up to your appointments, get details of various diseases,etc.
+                </p>
+              </p>
+            </div>
+            <div
+              className="card-footer"
+            >
+              <a
+                className="btn btn-primary card-link"
+                href="/Doctor"
+              >
+                Login as Doctor
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-sm"
+        >
+          <div
+            className="card"
+            style={
+              Object {
+                "height": "37rem",
+              }
+            }
+          >
+            <img
+              className="card-img-top"
+              src="admin12.jpg"
+              style={
+                Object {
+                  "height": "20rem",
+                }
+              }
+            />
+            <div
+              className="card-body"
+            >
+              <div
+                className="card-title h5"
+              >
+                <h5>
+                  Admin
+                </h5>
+              </div>
+              <p
+                className="card-text"
+              >
+                <p>
+                  Click here to Login as Admin of the Web-Application. This is only reserved for the Admin of the Web-Application
+                </p>
+              </p>
+            </div>
+            <div
+              className="card-footer"
+            >
+              <a
+                className="btn btn-primary card-link"
+                href="/Admin"
+              >
+                Login as Admin
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-sm"
+        >
+          <div
+            className="card"
+            style={
+              Object {
+                "height": "36.9rem",
+              }
+            }
+          >
+            <img
+              className="card-img-top"
+              src="patient12.jpg"
+              style={
+                Object {
+                  "height": "20rem",
+                }
+              }
+            />
+            <div
+              className="card-body"
+            >
+              <div
+                className="card-title h5"
+              >
+                <h5>
+                  Patient
+                </h5>
+              </div>
+              <p
+                className="card-text"
+              >
+                <p>
+                  Click here to Login as a Patient and get access to various features of booking appointments, setting alarms for medications, track your mental health and diet, etc.
+                </p>
+              </p>
+            </div>
+            <div
+              className="card-footer"
+            >
+              <a
+                className="btn btn-primary card-link"
+                href="/patient"
+              >
+                Login as Patient
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    id="footer"
+  >
+    <footer
+      className="footer"
+    >
+      <div
+        className="footer-left col-md-4 col-sm-6"
+      >
+        <p
+          className="about"
+        >
+          <span>
+            <h2>
+               About 
+            </h2>
+             
+          </span>
+           
+          Capgemini SE is a French multinational corporation that provides consulting, technology, professional, and outsourcing services. It is headquartered in Paris, France. Capgemini has over 270,000 employees in over 50 countries, of whom nearly 120,000 are in India.
+          <hr />
+        </p>
+        <div
+          className="social-icons"
+        >
+          <li>
+            <a
+              href="https://www.facebook.com/CapgeminiIndia/"
+            >
+              <img
+                alt="fb"
+                className="logo"
+                src="Facebook.png"
+              />
+              <i
+                className="fa fa-facebook"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/Capgemini?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+            >
+              <img
+                alt="twi"
+                className="logo"
+                src="Twitter.png"
+              />
+              <i
+                className="fa fa-twitter"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/company/capgemini/mycompany/verification/"
+            >
+              <img
+                alt="logo"
+                className="logo"
+                src="Linkedin.png"
+              />
+              <i
+                className="fa fa-linkedin"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/capgeminiindia/?hl=en"
+            >
+              <img
+                alt="insta"
+                className="logo"
+                src="Instagram.png"
+              />
+              <i
+                className="fa fa-instagram"
+              />
+            </a>
+          </li>
+        </div>
+      </div>
+      <div
+        className="footer-center col-md-4 col-sm-6"
+      >
+        <div>
+          <i
+            className="fa fa-map-marker"
+          />
+          <p>
+            <span>
+               123 Street, Tech Road
+            </span>
+             Pune, India
+          </p>
+        </div>
+        <div>
+          <i
+            className="fa fa-phone"
+          />
+          <p>
+             (+91) 9999 123 456
+          </p>
+        </div>
+        <div>
+          <i
+            className="fa fa-envelope"
+          />
+          <p>
+            <a
+              href="/#"
+            >
+               healthreminder@capgemini.com
+            </a>
+          </p>
+        </div>
+      </div>
+      <div
+        className="footer-right col-md-4 col-sm-6"
+      >
+        <img
+          alt="logo"
+          className="logo"
+          src="logo.png"
+        />
+        <hr />
+        <p
+          className="menu"
+        >
+          <a
+            href="/"
+          >
+             Home
+          </a>
+           |
+          <a
+            href="/Doctor"
+          >
+             Doctor
+          </a>
+           |
+          <a
+            href="/Admin"
+          >
+             Admin
+          </a>
+           |
+          <a
+            href="/Patient"
+          >
+             Patient
+          </a>
+           |
+          <a
+            href="/#"
+          >
+             Contact
+          </a>
+        </p>
+        <p
+          className="name"
+        >
+           Capgemini © 2021
+        </p>
+      </div>
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`Doctor Snapshot Test Checking Snapshot 1`] = `
+<div>
+  <div>
+    <nav
+      className="sticky-nav navbar navbar-expand-xl navbar-dark bg-dark"
+    >
+      <button
+        aria-controls="responsive-navbar-nav"
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse"
+        id="responsive-navbar-nav"
+      >
+        <img
+          alt="cg logo"
+          className="img-responsive"
+          src="logo.png"
+        />
+        <h2
+          className="heading"
+        >
+          Health Reminder
+        </h2>
+        <div
+          className="ml-auto navbar-nav"
+          onKeyDown={[Function]}
+        >
+          <a
+            className="nav-link"
+            data-rb-event-key="/doctor"
+            href="/doctor"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Home
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/searchpage"
+            href="/searchpage"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Disease Info
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/"
+            href="/"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Logout
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div
+    className="container"
+  >
+    <p>
+       
+    </p>
+    <h2>
+       Welcome Doctor! 
+    </h2>
+    <p>
+       
+    </p>
+    <div
+      className="row m-4"
+    >
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "width": "80%",
+            }
+          }
+        >
+          <img
+            className="card-img-top"
+            src="Slot.png"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Fill Up Slots
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to Fill up the Appointment Slots
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              onClick={[Function]}
+            >
+              Fill Slots
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "width": "80%",
+            }
+          }
+        >
+          <img
+            className="card-img-top"
+            src="disease.jpg"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Disease Info
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to get a detailed list of diseases.
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              href="/searchpage"
+            >
+              Disease Info
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row m-4"
+    >
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "width": "80%",
+            }
+          }
+        >
+          <img
+            className="card-img-top"
+            src="view_app.jpg"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Appointment Details
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to get all the Appointment Details
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              onClick={[Function]}
+            >
+              Get Details
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "width": "80%",
+            }
+          }
+        >
+          <img
+            className="card-img-top"
+            src="profile.png"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Profile
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to check your profile
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              onClick={[Function]}
+            >
+              Get Details
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Footer Snapshot Test Checking Snapshot 1`] = `
+<div
+  id="footer"
+>
+  <footer
+    className="footer"
+  >
+    <div
+      className="footer-left col-md-4 col-sm-6"
+    >
+      <p
+        className="about"
+      >
+        <span>
+          <h2>
+             About 
+          </h2>
+           
+        </span>
+         
+        Capgemini SE is a French multinational corporation that provides consulting, technology, professional, and outsourcing services. It is headquartered in Paris, France. Capgemini has over 270,000 employees in over 50 countries, of whom nearly 120,000 are in India.
+        <hr />
+      </p>
+      <div
+        className="social-icons"
+      >
+        <li>
+          <a
+            href="https://www.facebook.com/CapgeminiIndia/"
+          >
+            <img
+              alt="fb"
+              className="logo"
+              src="Facebook.png"
+            />
+            <i
+              className="fa fa-facebook"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/Capgemini?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          >
+            <img
+              alt="twi"
+              className="logo"
+              src="Twitter.png"
+            />
+            <i
+              className="fa fa-twitter"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/company/capgemini/mycompany/verification/"
+          >
+            <img
+              alt="logo"
+              className="logo"
+              src="Linkedin.png"
+            />
+            <i
+              className="fa fa-linkedin"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/capgeminiindia/?hl=en"
+          >
+            <img
+              alt="insta"
+              className="logo"
+              src="Instagram.png"
+            />
+            <i
+              className="fa fa-instagram"
+            />
+          </a>
+        </li>
+      </div>
+    </div>
+    <div
+      className="footer-center col-md-4 col-sm-6"
+    >
+      <div>
+        <i
+          className="fa fa-map-marker"
+        />
+        <p>
+          <span>
+             123 Street, Tech Road
+          </span>
+           Pune, India
+        </p>
+      </div>
+      <div>
+        <i
+          className="fa fa-phone"
+        />
+        <p>
+           (+91) 9999 123 456
+        </p>
+      </div>
+      <div>
+        <i
+          className="fa fa-envelope"
+        />
+        <p>
+          <a
+            href="/#"
+          >
+             healthreminder@capgemini.com
+          </a>
+        </p>
+      </div>
+    </div>
+    <div
+      className="footer-right col-md-4 col-sm-6"
+    >
+      <img
+        alt="logo"
+        className="logo"
+        src="logo.png"
+      />
+      <hr />
+      <p
+        className="menu"
+      >
+        <a
+          href="/"
+        >
+           Home
+        </a>
+         |
+        <a
+          href="/Doctor"
+        >
+           Doctor
+        </a>
+         |
+        <a
+          href="/Admin"
+        >
+           Admin
+        </a>
+         |
+        <a
+          href="/Patient"
+        >
+           Patient
+        </a>
+         |
+        <a
+          href="/#"
+        >
+           Contact
+        </a>
+      </p>
+      <p
+        className="name"
+      >
+         Capgemini © 2021
+      </p>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Patient Snapshot Test Checking Snapshot 1`] = `
+<div>
+  <div>
+    <nav
+      className="sticky-nav navbar navbar-expand-xl navbar-dark bg-dark"
+    >
+      <button
+        aria-controls="responsive-navbar-nav"
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse"
+        id="responsive-navbar-nav"
+      >
+        <img
+          alt="cg logo"
+          className="img-responsive"
+          src="logo.png"
+        />
+        <h2
+          className="heading"
+        >
+          Health Reminder
+        </h2>
+        <div
+          className="ml-auto navbar-nav"
+          onKeyDown={[Function]}
+        >
+          <a
+            className="nav-link"
+            data-rb-event-key="/patient"
+            href="/patient"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Home
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/viewAllSlots"
+            href="/viewAllSlots"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Book Appointment
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/setreminder"
+            href="/setreminder"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Set Reminder
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="searchpage"
+            href="searchpage"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Disease Search
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/"
+            href="/"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Logout
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div
+    className="container"
+  >
+    <p>
+       
+    </p>
+    <h2>
+       Welcome Patient! 
+    </h2>
+    <p>
+       
+    </p>
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="Slot.png"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Check Slot and Book Appointment
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to see all the available Appointment Slots and Book your Appointment Now!
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              href="/viewAllSlots"
+            >
+              Slots/Book Appointment
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "35.8rem",
+            }
+          }
+        >
+          <img
+            className="card-img-top"
+            src="view_app.jpg"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Appointment Details
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to get all the Appointment Details
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              onClick={[Function]}
+            >
+              Get Details
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "35.8rem",
+            }
+          }
+        >
+          <img
+            className="card-img-top"
+            src="mental.jpg"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Mental Health Rating
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Enter your mental health rating for today
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              onClick={[Function]}
+            >
+              Enter rating
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <br />
+    <br />
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="reminder.png"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Set Reminders
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to set reminders for your medications time-to-time
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              href="/setreminder"
+            >
+              Set Reminder
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="disease.jpg"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Disease Info
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to get a list of diseases along with their descriptions.
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              href="/searchpage"
+            >
+              Disease Info
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="diet.jpg"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Diet Info
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to find a perfect diet chart according to your BMI
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              onClick={[Function]}
+            >
+              Diet chart
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "34.3rem",
+            }
+          }
+        >
+          <img
+            className="card-img-top"
+            src="profile.png"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Profile
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to set or update your profile
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              onClick={[Function]}
+            >
+              Set/Update Profile
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Patient Test Checking Snapshot 1`] = `
+<div>
+  <div>
+    <nav
+      className="sticky-nav navbar navbar-expand-xl navbar-dark bg-dark"
+    >
+      <button
+        aria-controls="responsive-navbar-nav"
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse"
+        id="responsive-navbar-nav"
+      >
+        <img
+          alt="cg logo"
+          className="img-responsive"
+          src="logo.png"
+        />
+        <h2
+          className="heading"
+        >
+          Health Reminder
+        </h2>
+        <div
+          className="ml-auto navbar-nav"
+          onKeyDown={[Function]}
+        >
+          <a
+            className="nav-link"
+            data-rb-event-key="/patient"
+            href="/patient"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Home
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/viewAllSlots"
+            href="/viewAllSlots"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Book Appointment
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/setreminder"
+            href="/setreminder"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Set Reminder
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="searchpage"
+            href="searchpage"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Disease Search
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/"
+            href="/"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Logout
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div
+    className="container"
+  >
+    <p>
+       
+    </p>
+    <h2>
+       Welcome Patient! 
+    </h2>
+    <p>
+       
+    </p>
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="Slot.png"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Check Slot and Book Appointment
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to see all the available Appointment Slots and Book your Appointment Now!
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              href="/viewAllSlots"
+            >
+              Slots/Book Appointment
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "35.8rem",
+            }
+          }
+        >
+          <img
+            className="card-img-top"
+            src="view_app.jpg"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Appointment Details
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to get all the Appointment Details
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              onClick={[Function]}
+            >
+              Get Details
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "35.8rem",
+            }
+          }
+        >
+          <img
+            className="card-img-top"
+            src="mental.jpg"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Mental Health Rating
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Enter your mental health rating for today
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              onClick={[Function]}
+            >
+              Enter rating
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <br />
+    <br />
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="reminder.png"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Set Reminders
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to set reminders for your medications time-to-time
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              href="/setreminder"
+            >
+              Set Reminder
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="disease.jpg"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Disease Info
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to get a list of diseases along with their descriptions.
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              href="/searchpage"
+            >
+              Disease Info
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="diet.jpg"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Diet Info
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to find a perfect diet chart according to your BMI
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              onClick={[Function]}
+            >
+              Diet chart
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "34.3rem",
+            }
+          }
+        >
+          <img
+            className="card-img-top"
+            src="profile.png"
+            style={
+              Object {
+                "height": "20rem",
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              <h5>
+                Profile
+              </h5>
+            </div>
+            <p
+              className="card-text"
+            >
+              <p>
+                Click here to set or update your profile
+              </p>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary card-link"
+              onClick={[Function]}
+            >
+              Set/Update Profile
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
