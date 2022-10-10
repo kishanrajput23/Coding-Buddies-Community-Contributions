@@ -1,0 +1,62 @@
+// CPP code to check if a
+// number is jumbled or not
+#include <bits/stdc++.h>
+using namespace std;
+ 
+// Function to check if a
+// number is jumbled or not
+bool checkJumbled(int num)
+{
+    // Single digit number
+    if (num / 10 == 0)
+        return true;
+ 
+    // Checking every digit
+    // through a loop
+    while (num != 0)
+    {
+ 
+        // All digits were checked
+        if (num / 10 == 0)
+            return true;
+ 
+        // Digit at index i
+        int digit1 = num % 10;
+ 
+        // Digit at index i-1
+        int digit2 = (num / 10) % 10;
+ 
+        // If difference is
+        // greater than 1
+        if (abs(digit2 - digit1) > 1)
+            return false;
+ 
+        num = num / 10;
+    }
+ 
+    // Number checked
+    return true;
+}
+ 
+// Driver code
+int main()
+{
+ 
+    //-1234 to be checked
+    int num = -1234;
+ 
+    if (checkJumbled(num))
+        cout << "True \n";
+    else
+        cout << "False \n";
+ 
+    // 287 to be checked
+    num = -1247;
+ 
+    if (checkJumbled(num))
+        cout << "True \n";
+    else
+        cout << "False \n";
+ 
+    return 0;
+}
