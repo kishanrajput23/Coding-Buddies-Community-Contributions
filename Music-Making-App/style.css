@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 50px 0px 30px 0px;
+  text-align: center;
+  font-size: 40px;
+}
+header p {
+  font-size: 25px;
+}
+
+.pads {
+  background: lightblue;
+  width: 100%;
+  display: flex;
+}
+.pads > div {
+  height: 100px;
+  width: 100px;
+  flex: 1;
+}
+.pads > div:active{
+  background-color:rgba(255, 255, 255, 0.877)
+}
+.pad1 {
+  background: #b23bd6;
+}
+.pad2 {
+  background: #6068d3;
+}
+.pad3 {
+  background: #d39460;
+}
+.pad4 {
+  background: #60d379;
+}
+.pad5 {
+  background: #c2d360;
+}
+.pad6 {
+  background: #d3a560;
+}
+.pad7 {
+  background: #8b1c25;
+}
+
+.visual > div {
+  position: absolute;
+  bottom: 0%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transform: scale(1);
+  z-index: -1;
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0%;
+    left: 20%;
+  }
+  50% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    bottom: 00%;
+    left: 80%;
+  }
+}
