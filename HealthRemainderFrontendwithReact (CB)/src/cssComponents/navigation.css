@@ -1,0 +1,43 @@
+.sticky-nav {
+  /* position: sticky; */
+  /* top: 0; */
+  padding-top: 65px;
+}
+
+.img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 72px;
+  max-width: 250px;
+}
+
+.heading {
+  color: ivory;
+  display: inline-flex;
+  /* width: 300%; */
+  margin: auto;
+  margin-left: 27%;
+  text-align: center;
+  font-size: 2em;
+  padding: 1ex;
+}
+
+.contact{
+  color:rgb(153, 153, 153);
+  margin-top: 2.5%;
+}
+
+.contact:hover{
+  text-decoration: none;
+  color:rgb(229, 226, 226);
+  cursor: pointer;
+}
+
+/* body {
+  padding-top: 40px;
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 0px;
+  }
+} */
