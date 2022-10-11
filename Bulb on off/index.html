@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb</title>
+</head>
+<body>
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg"  id="bulb">
+
+    <button id="btn" onclick="control()" >OFF</button>
+
+    <script>
+        function control(){
+            document.getElementById('bulb').src="https://media.geeksforgeeks.org/wp-content/uploads/ONbulb.jpg";
+
+            document.getElementById('btn').innerHTML= "ON";
+
+
+        }
+    </script>
+
+</body>
+</html>
