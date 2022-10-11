@@ -25,4 +25,6 @@ Clone of the Netflix website in HTML CSS and JS
 
 I might add the other pages on the Netflix website if I ever come back to refactor ^-^
 
+CB
+
 
