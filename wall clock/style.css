@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(40, 40, 151);
+}
+
+.clock{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 50%;
+    border: 20px solid black;
+    box-shadow: inset 0px 0px 2px 1px #0000001f, 0px 0px 2px 1px #0000001f;
+    background-image: url("https://th.bing.com/th/id/OIP._XrLlSkXZk39W6U2amlcSQHaHa?w=175&h=180&c=7&r=0&o=5&dpr=1.35&pid=1.7");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+
+}
+
+.clock::after{
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-55%,-50%);
+}
+
+#second,#minute, #hour{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#minute{
+    z-index: 2;
+}
+#second{
+    z-index: 3;
+}
+#hour{
+    z-index: 1;
+}
+
+#second::before, #minute::before, #hour::before{
+    content: "";
+    display: block;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-100%);
+
+}
+
+#second::before{
+    width: 1.5px;
+    border: none;
+    height: 120px;
+    background-color: red;
+}
+#minute::before{
+    width: 2px;
+    border: none;
+    height: 100px;
+    background-color: gray;
+}
+#hour::before{
+    width: 4px;
+    border: none;
+    height: 70px;
+    background-color: darkgray;
+}
