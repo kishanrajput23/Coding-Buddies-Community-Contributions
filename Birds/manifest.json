@@ -1,0 +1,13 @@
+{
+    "name":"Bird Pictures",
+    "version":"0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "bird.png"
+    },
+    "icons":{
+        "128": "bird.png"
+    },
+    "permissions": ["activeTab"]
+}
