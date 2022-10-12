@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/stylesheet/style.css">
+  <title>TicTacToe Game</title>
+</head>
+<body>
+  <div class="container first-page">
+    <h1 class="">Welcome, to the Tic Tac Toe Game, please click on the green button to start playing</h1>
+
+    <button id="game-initiator">Start !</button>
+  </div>
+
+  <div class="container second-page">
+    <h1>Player 1</h1>
+    <h3>Please enter your full name and choose a symbol</h3>
+
+    <form>
+        <div class="input-form">
+          <label for="player1-name">Full Name</label>
+          <input type="text" id="player1-name">
+          <span class="warning name-warning">please type your name</span>
+        </div>
+
+        <div id="player1-symbols" class="symbols">
+
+        </div>
+        <span class="warning symbol-warning">please select a symbol</span>
+
+        <button id="player1-submit-btn" type="submit">Save</button>
+    </form>
+  </div>
+
+  <div class="container third-page">
+    <h1>Player 2</h1>
+    <h3>Please enter your full name and choose a symbol</h3>
+
+    <form>
+        <div class="input-form">
+          <label for="player2-name">Full Name</label>
+          <input type="text" id="player2-name">
+          <span class="warning name-warning">please type your name</span>
+        </div>
+
+        <div id="player2-symbols" class="symbols">
+
+        </div>
+        <span class="warning symbol-warning">please select a symbol</span>
+
+        <button id="player2-submit-btn" type="submit">Save</button>
+    </form>
+  </div>
+
+  <div class="container final-page">
+    <div id="player1-info" class="w-100">
+      <div class="info">
+        <span class="symbol"></span>
+        <span class="name"></span>
+      </div>
+      <div class="score">
+        <h2>Score: <span></span></h2>
+      </div>
+    </div>
+    <div id="board-container">
+      <div class="turn">
+        it's <span></span> turn
+      </div>
+      <div class="winning-status d-none"></div>
+      <div class="board">
+        <span data-index="0"></span>
+        <span data-index="1" class="middle-y"></span>
+        <span data-index="2"></span>
+        <span data-index="3" class="middle-x"></span>
+        <span data-index="4" class="middle-y middle-x"></span>
+        <span data-index="5" class="middle-x"></span>
+        <span data-index="6"></span>
+        <span data-index="7" class="middle-y"></span>
+        <span data-index="8"></span>
+      </div>
+      <div class="cell-warning d-none">
+        Cell is already filled, try another one.
+      </div>
+
+      <button class="d-none" id="reset-btn">Play Again ?</button>
+    </div>
+    <div id="player2-info" class="w-100">
+      <div class="info">
+        <span class="symbol"></span>
+        <span class="name"></span>
+      </div>
+      <div class="score">
+        <h2>Score: <span></span></h2>
+      </div>
+    </div>
+  </div>
+  <script src="assets/logic/app.js"></script>
+</body>
+</html>
