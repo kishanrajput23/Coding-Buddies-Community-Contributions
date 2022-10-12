@@ -1,0 +1,115 @@
+{
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Apollo",
+      "bedsAvailable": 75
+    },
+    {
+      "id": 2,
+      "name": "NRI",
+      "bedsAvailable": 50
+    },
+    {
+      "id": 3,
+      "name": "PushpaGiri",
+      "bedsAvailable": 25
+    },
+    {
+      "id": 4,
+      "name": "Good-health",
+      "bedsAvailable": 100
+    },
+    {
+      "id": 5,
+      "name": "Medicover",
+      "bedsAvailable": 75
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "hospitalName": "apollo",
+      "name": "someone",
+      "mobileNumber": 7410852963,
+      "notes": "wheel chair needed"
+    },
+    {
+      "hospitalName": "",
+      "name": "asda",
+      "mobileNumber": 6546,
+      "notes": "5dsadas",
+      "id": 2
+    },
+    {
+      "hospitalName": "PushpaGiri Hospitals",
+      "name": "sda",
+      "mobileNumber": 6544,
+      "notes": "asda",
+      "id": 3
+    },
+    {
+      "hospitalName": "Apollo Hospitals",
+      "name": "navin",
+      "mobileNumber": 7410852963,
+      "notes": "strectger",
+      "id": 4
+    },
+    {
+      "hospitalName": "Medicover hospitals",
+      "name": "chanfra",
+      "mobileNumber": 4546546566,
+      "notes": "wheel chair",
+      "id": 5
+    },
+    {
+      "hospitalName": "NRI Hospitals",
+      "name": "ashok",
+      "mobileNumber": 8520963741,
+      "notes": "wheel chair",
+      "id": 6
+    },
+    {
+      "hospitalName": "Medicover hospitals",
+      "name": "acumbacum",
+      "mobileNumber": 9638520741,
+      "notes": "wheel chair",
+      "id": 7
+    },
+    {
+      "hospitalName": "",
+      "name": "",
+      "mobileNumber": "",
+      "notes": "",
+      "id": 8
+    },
+    {
+      "hospitalName": "",
+      "name": "",
+      "mobileNumber": "",
+      "notes": "",
+      "id": 9
+    },
+    {
+      "hospitalName": "",
+      "name": "",
+      "mobileNumber": "",
+      "notes": "",
+      "id": 10
+    },
+    {
+      "hospitalName": "",
+      "name": "",
+      "mobileNumber": "",
+      "notes": "",
+      "id": 11
+    },
+    {
+      "hospitalName": "",
+      "name": "",
+      "mobileNumber": "",
+      "notes": "",
+      "id": 12
+    }
+  ]
+}
