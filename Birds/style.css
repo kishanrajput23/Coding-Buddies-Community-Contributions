@@ -1,0 +1,13 @@
+body{
+    width: 500px;
+    height: 500px;
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: inline-flex;
+    margin: auto 20px;
+    padding: 25px;
+}
