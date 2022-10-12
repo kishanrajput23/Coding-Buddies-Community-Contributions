@@ -1,0 +1,33 @@
+<div>
+    <div class="container custom-container-2" style="background: burlywood;padding: 1em;">
+        <h3 class="text-monospace d-flex justify-content-center">Find Hospital</h3>
+        <br>
+        <input type="text" class="form-control" placeholder="Enter the city" [(ngModel)]="city">
+        <hr>
+        <button type="button" class="btn btn-success" (click)="fetchHospitals()">Search</button>
+        <br>
+        <br>
+        <div class="col-md-12">
+            <table class="table table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Hospital Name</th>
+                        <th scope="col">Beds Availabile</th>
+                        <!-- <th scope="col">Reserve</th> -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let hospital of hospitals">
+                        <td>{{hospital.id}}</td>
+                        <td>{{hospital.name}}</td>
+                        <td>{{hospital.bedsAvailable}}</td>
+                        <!-- <td>{{hospital.faclites}}</td> -->
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- <div class="col-6 col-md-3 alert-success"></div> -->
+    </div>
+</div>
