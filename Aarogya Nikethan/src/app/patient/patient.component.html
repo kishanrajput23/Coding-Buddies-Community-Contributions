@@ -1,0 +1,40 @@
+
+<!-- <div>
+    <h2 class="text-center">Hospitals List</h2>
+  </div> -->
+  <hr>
+  <div class="container custom-container-2">
+  
+    <!-- Show it when there is no hospital -->
+    <div class="no-data text-center text-monospace font-weight-bolder" *ngIf="hospitals.length == 0">
+      <p>OOPS! &#9785; Present No Hospital has Bed Availability &#9785; </p>
+    </div>
+  
+    <!-- Hospital list table, it hides when there is no hospital -->
+    <div *ngIf="hospitals.length !== 0">
+      <h3 class="mb-3 text-center text-uppercase text-monospace">Hospitals List</h3>
+  
+      <div class="col-md-12">
+        <table class="table table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">User Id</th>
+              <th scope="col">Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let hospital of hospitals">
+                <td>{{hospital.id}}</td>
+                <td>{{hospital.name}}</td>
+                <td>{{hospital.bedsAvailable}}</td>
+                <td> <button class="btn btn-success" routerLink="/hospitals/{{hospital.id}}">Book Appoinment</button> </td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+  
+    </div>
+  
+  </div>
