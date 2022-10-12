@@ -1,0 +1,53 @@
+  
+  body {
+    width: 500px;
+    height: 500px;
+    background-color:#000;
+    display: flex;
+    justify-content: center;
+    font-family: helvetica;
+    font-size: 18px;
+  }
+  
+  .container {
+    margin: 200px auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quote-box {
+    border: none;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+  }
+  #quote {
+    color: rgb(170, 167, 167);
+    text-align: center;
+  }
+  #author {
+    float: right;
+    color: rgb(170, 167, 167);
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  #btn {
+    align-self: center;
+    position: fixed;
+    margin-top:170px;
+    border-radius: 8px;
+    padding: 10px 15px;
+    color: rgb(161, 148, 148);
+    font-weight: bold;
+    opacity: 0.6;
+    display:inline-block;
+    cursor: pointer;
+    transition: 0.3s;
+    
+  }
+  
+  #btn:hover {
+    opacity: 1;
+  }
