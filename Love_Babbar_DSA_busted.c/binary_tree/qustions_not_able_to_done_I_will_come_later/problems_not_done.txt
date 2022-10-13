@@ -1,0 +1,3 @@
+1. sum of nodes on the longest path from root node to the leaf node 
+2. check if given graph is tree or not. 
+3. Maximum sum of nodes in a binary tree such that no two nodes are adjacent . 

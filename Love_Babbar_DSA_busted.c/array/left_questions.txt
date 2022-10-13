@@ -1,0 +1,4 @@
+Questions not done
+
+1. last two questions of the arrays. 
+to find out the median of two sorted arrays. 

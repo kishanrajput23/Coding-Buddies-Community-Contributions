@@ -1,0 +1,4 @@
+1.    line 329 : check if all elements of two trees are anagrams or not : 
+      reason: I will do this question after studying trees 
+
+      
