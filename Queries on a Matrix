@@ -1,0 +1,31 @@
+class Solution {
+    public int[][] solveQueries(int n, int[][] Queries) {
+        
+        int mem[][] = new int[n][n];
+        
+        for(int q[] : Queries)
+        {
+            int x=0;
+            
+            int start = q[1];
+            int end = q[3]+1;
+            for(x = q[0]; x<=q[2]; x++)
+            {
+                mem[x][start]++;
+                
+                if(end<n) mem[x][end]--;
+            }
+        }
+        
+        for(int i=0; i<n; i++)
+        {
+            for(int j=1; j<n; j++)
+            {
+                mem[i][j] += mem[i][j-1];
+            }
+        }
+        
+        return mem;
+        
+    }
+}
