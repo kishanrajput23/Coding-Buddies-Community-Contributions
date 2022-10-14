@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlipKart</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .header {
+        background-color: #2874f0;
+        height: 56px;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 5%;
+        color: #f0f0f0;
+        position: fixed;
+    }
+
+    .explore {
+        font-size: small;
+    }
+
+    .plus {
+        font-size: small;
+        color: rgb(253, 193, 40);
+        font: bold;
+    }
+
+    .explore:hover {
+        text-decoration: underline;
+    }
+
+    .plus:hover {
+        text-decoration: underline;
+    }
+
+    #iten1 {
+        width: 81px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin-left: 7%;
+    }
+
+    .item1 {
+        height: 16px;
+    }
+
+    .form input {
+        text-align: left;
+        display: block;
+        width: 40vw;
+        padding: 2%;
+        /* border: 2px solid black; */
+        margin: 9px auto;
+        /* font-size: small; */
+        border-radius: 0px;
+    }
+
+    .login input {
+        width: 9vw;
+        text-align: center;
+        padding: 2%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin: 4%;
+        font-size: larger;
+        border: 2px blue;
+        border-radius: 3px;
+    }
+
+    #iten5 {
+        font-weight: bold;
+        padding: 3%;
+        padding-right: 0%;
+    }
+
+    #iten6 {
+        font-weight: bold;
+        margin-left: -5%;
+        padding-right: 6%;
+        /* width: 0%; */
+        margin-right: 1%;
+    }
+
+    #iten4 {
+        border: 3px solid #2874f0;
+    }
+
+    .images1 {
+        margin-top: 0%;
+        padding-top: 5%;
+        padding-bottom: 1%;
+    }
+
+    .adds img {
+        width: 100%;
+        height: fit-content;
+    }
+
+    table.deal {
+        width: 100%;
+    }
+
+    .today_deal {
+        margin-top: 0%;
+        border: 1px solid #dad5d5;
+        padding: 1.5%;
+    }
+
+    td.deal1 {
+        font-weight: bold;
+        font-size: x-large;
+        line-height: 32px;
+        text-align-last: auto;
+        width: 16%;
+    }
+
+    td.deal2 {
+        line-height: 32px;
+        font-stretch: normal;
+        color: #999292;
+        font-weight: 400;
+        font-size: 17px;
+    }
+
+    /* td.deal3 {
+    } */
+
+    button.view {
+        padding-inline: 9%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        color: #f0f0f0;
+        background-color: #2874f0;
+        border-radius: 4px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .today_deal_item {
+        margin: 1%;
+    }
+
+    .today_deal_item img {
+        width: 59%;
+        padding-inline: 16%;
+        margin: 1%;
+        min-width: -webkit-fill-available;
+    }
+
+    table .tdydl {
+        text-align: center;
+        color: #60794f;
+        /* margin: -1%; */
+        padding: 1%;
+    }
+
+    table .tdyd2 {
+        text-align: center;
+        color: #a7aaa5;
+    }
+
+    hr.no1 {
+        width: 100%;
+        height: 14px;
+        /* color: #a59f9f; */
+        /* -webkit-text-fill-color: gold; */
+        /* lighting-color: red; */
+        background-color: #ebe5e5;
+    }
+
+    .top_offers {
+        margin-top: 0%;
+        border: 1px solid #dad5d5;
+        padding: 0.7%;
+    }
+
+    #no1 {
+        font-weight: bold;
+        font-size: x-large;
+        line-height: 40px;
+        text-align-last: auto;
+        width: 22%;
+    }
+
+    #no2 {
+        line-height: 25px;
+        color: #999292;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    ._offer {
+        padding-left: 2%;
+    }
+
+    ._offer2 {
+        text-align: -webkit-right;
+        padding-right: 3%;
+    }
+
+    th:hover {
+        color: #2874f0;
+    }
+
+    td img:hover {
+        margin: 0;
+        padding-inline: 14%;
+    }
+
+    div.foot {
+        font-weight: bold;
+        font-size: x-large;
+        line-height: 55px;
+        text-align-last: auto;
+        width: 25%;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <div class="head" id="iten1">
+            <div class="item1">
+                <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+                    width="70" alt="FlipKart" class="flip1" />
+            </div>
+            <!-- <span class="s2"><p class="explore">Explore</p> <p class="plus">Plus</p></span> -->
+
+            <div class="item1ka2">
+                <span class="explore">Explore</span>
+                <span class="plus">Plus
+                    <img class="cart" width="10"
+                        src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png"
+                        alt="" /></span>
+            </div>
+        </div>
+
+        <div class="head" id="iten2">
+            <div class="form">
+                <input class="text" color="blue" name="" placeholder="Search for Products, Brands and more " />
+            </div>
+        </div>
+
+        <div class="head" id="iten4">
+            <div class="login">
+                <input class="text" name="" placeholder="Login" />
+            </div>
+        </div>
+        <div class="head" id="iten5">More</div>
+        <div class="head" id="iten7">
+            <img width="30" src="https://i.pinimg.com/originals/5f/59/68/5f59687e7560d90c6ea34210c5bcf830.png" alt="" />
+        </div>
+        <div class="head" id="iten6">Cart</div>
+    </div>
+
+    <table width="100%" class="images1">
+        <thead>
+            <tr>
+                <td>
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100" alt="" />
+                </td>
+                <td>
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" alt="" />
+                </td>
+                <td>
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" alt="" />
+                </td>
+                <td>
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/82b3ca5fb2301045.png?q=100" alt="" />
+                </td>
+                <td>
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" alt="" />
+                </td>
+                <td>
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100" alt="" />
+                </td>
+                <td>
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100" alt="" />
+                </td>
+                <td>
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100" alt="" />
+                </td>
+                <td>
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100" alt="" />
+                </td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <th>Top Offers</th>
+            <th>Grocery</th>
+            <th>Mobiles</th>
+            <th>Fashion</th>
+            <th>Electronics</th>
+            <th>Home</th>
+            <th>Appliances</th>
+            <th>Travel</th>
+            <th>Beauty,Toys&More</th>
+        </tbody>
+    </table>
+
+    <hr class="no1" />
+
+    <div class="adds" border="2">
+        <img src="https://rukminim1.flixcart.com/flap/844/140/image/7a8b6b8e4df66729.jpg?q=50" alt="" />
+    </div>
+
+    <hr class="no1" />
+
+    <div class="today_deal">
+        <table class="deal">
+            <thead>
+                <td class="deal1">Deals of the Day</td>
+                <td class="deal2">06 : 47 : 23 Left</td>
+                <td class="deal3"><button class="view">View all</button></td>
+            </thead>
+        </table>
+    </div>
+
+    <div class="today_deal_item" width="100%">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>
+                        <img src="https://rukminim1.flixcart.com/image/150/150/kpr8k280/headphone/r/w/d/da2002-dizo-original-imag3xh2qzms3zrh.jpeg?q=70"
+                            alt="" />
+                    </td>
+                    <td>
+                        <img src="https://rukminim1.flixcart.com/flap/150/150/image/73a876aed3db713f.jpg?q=70" alt="" />
+                    </td>
+                    <td>
+                        <img src="https://rukminim1.flixcart.com/image/150/150/kjrh2fk0/soldering-iron/y/x/x/beginners-8in1-mobile-soldering-iron-equipment-tool-machine-original-imafz9mvj8zsmsem.jpeg?q=70"
+                            alt="" />
+                    </td>
+                    <td>
+                        <img src="https://rukminim1.flixcart.com/image/150/150/k1jlyfk0/shoe/a/u/a/pro-sf-aw1011-7-provogue-black-original-imafh3zmzujzkkgf.jpeg?q=70"
+                            alt="" />
+                    </td>
+                    <td>
+                        <img src="https://rukminim1.flixcart.com/image/150/150/k6fd47k0/shirt/9/f/5/xl-c415-tealblue-dennis-lingo-original-imafzvvrxzt8tpar.jpeg?q=70"
+                            alt="" />
+                    </td>
+                    <td>
+                        <img src="https://rukminim1.flixcart.com/image/150/150/krayqa80/rakhi-set/5/p/m/5-arf-7-so4-anil-rakhi-original-imag54dg6yfer8cg.jpeg?q=70"
+                            alt="" />
+                    </td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <th>Earphones</th>
+                <th>Perfumes and deos</th>
+                <th>Hand Tools</th>
+                <th>Shoes</th>
+                <th>Shirts & Tousers</th>
+                <th>Rakhies</th>
+            </tbody>
+
+            <tbody>
+                <td class="tdydl">Up to 40% Off</td>
+                <td class="tdydl">From Rs. 121</td>
+                <td class="tdydl">From Rs. 99</td>
+                <td class="tdydl">Min. 50% Off + Extra 10% Off</td>
+                <td class="tdydl">Starting From 199</td>
+                <td class="tdydl">Up to 60% Off</td>
+            </tbody>
+
+            <tbody>
+                <td class="tdyd2">BOAT , Jbl & More</td>
+                <td class="tdyd2">WildStone , Nevia , Fogg & More...</td>
+                <td class="tdyd2">Best selling</td>
+                <td class="tdyd2">Puma , Adidas , Nike & More...</td>
+                <td class="tdyd2">Best sellers</td>
+                <td class="tdyd2">Fresh Collection Availab...</td>
+            </tbody>
+        </table>
+    </div>
+
+    <hr class="no1" />
+
+    <div class="top_offers">
+        <table class="top" width="100%">
+            <thead>
+                <td class="_offer">
+                    <div id="no1"><strong>Top Offers On</strong></div>
+                    <!-- <br /> -->
+                    <div id="no2">Men's Accessories</div>
+                </td>
+                <td class="_offer2"><button class="view">View all</button></td>
+            </thead>
+        </table>
+    </div>
+
+    <div class="today_deal_item" width="100%">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jjolt3k0/watch/r/m/p/fs4662-fossil-original-imaf77eje3ggrgrk.jpeg?q=70"
+                            alt="" />
+                    </td>
+                    <!-- <td>
+              <img
+                src="https://rukminim1.flixcart.com/image/150/150/k5lcvbk0/backpack/z/t/s/boho-with-rain-cover-blue-casual-backpack-23l-bpboh1rblu-original-imafz8f66gvawsgf.jpeg?q=70"
+                alt=""
+              />
+            </td> -->
+                    <td>
+                        <img src="https://rukminim1.flixcart.com/image/150/150/k2hwivk0/watch/g/f/2/new-arrival-analog-watch-for-men-bluepearl-original-imafhu8tyuugewsc.jpeg?q=70"
+                            alt="" />
+                    </td>
+                    <td>
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jialea80/frame/c/d/u/53-0rx7143200053-ray-ban-original-imaf64b9rzss3zju.jpeg?q=70"
+                            alt="" />
+                    </td>
+                    <td>
+                        <img src="https://rukminim1.flixcart.com/image/150/150/k7jdg280/rucksack/6/9/w/hk007-skyblue-80-ltr-trekking-bag-hiking-backpack-travel-original-imafpqkbmctbcf8z.jpeg?q=70"
+                            alt="" />
+                    </td>
+                    <td>
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jw9ke4w0/belt/a/n/2/32-35mm-leather-belt-8770265-belt-invictus-original-imafgzuajppqewz4.jpeg?q=70"
+                            alt="" />
+                    </td>
+                    <td>
+                        <img src="https://rukminim1.flixcart.com/image/150/150/k6nxrbk0/backpack/r/6/h/khadi-textured-hi-storage-khadi-textured-laptop-backpack-original-imafp3fprszq79kg.jpeg?q=70"
+                            alt="" />
+                    </td>
+                    <td>
+                        <img src="https://rukminim1.flixcart.com/image/150/150/k3hmj680/laptop-bag/r/7/h/historage-american-tourist-bln-009-bln-009-laptop-backpack-original-imafh9jfmyvfeyzd.jpeg?q=70"
+                            alt="" />
+                    </td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <th>Fossil cosio & More</th>
+                <th>Get stylish Get watches</th>
+                <th>Ray-Ban Fastrack & More</th>
+                <th>Backpakes</th>
+                <th>Invictus</th>
+                <th>Unbelieve Deals om Brands...</th>
+                <th>Laptop Bags</th>
+            </tbody>
+
+            <tbody>
+                <td class="tdydl">Up to 40% Off</td>
+                <td class="tdydl">From Rs. 121</td>
+                <td class="tdydl">From Rs. 99</td>
+                <td class="tdydl">Min. 50% Off + Extra 10% Off</td>
+                <td class="tdydl">Starting From 199</td>
+                <td class="tdydl">Up to 60% Off</td>
+                <td class="tdydl">20-60% Off</td>
+            </tbody>
+
+            <tbody>
+                <td class="tdyd2">Top Offers</td>
+                <td class="tdyd2">Watches</td>
+                <td class="tdyd2">Frames</td>
+                <td class="tdyd2">Puma , Adidas , Nike & More...</td>
+                <td class="tdyd2">Best sellers</td>
+                <td class="tdyd2">Fresh Collection Availab...</td>
+                <td class="tdyd2">Buy Now</td>
+            </tbody>
+        </table>
+
+
+        <br>
+        <hr class="no1" />
+
+        <div class="top_offers">
+            <table class="top" width="100%">
+                <thead>
+                    <td class="_offer">
+                        <div class="foot">Men's Footwear</div>
+                    </td>
+                    <td class="_offer2"><button class="view">View all</button></td>
+                </thead>
+            </table>
+        </div>
+
+        <div class="today_deal_item" width="100%">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>
+                            <img src="https://rukminim1.flixcart.com/image/150/150/kjn6qvk0-0/shoe/d/c/v/ck2669-001nike-12-nike-black-white-smoke-grey-original-imafz5vwe5t53z3t.jpeg?q=70"
+                                alt="" />
+                        </td>
+                        <!-- <td>
+              <img
+                src="https://rukminim1.flixcart.com/image/150/150/k5lcvbk0/backpack/z/t/s/boho-with-rain-cover-blue-casual-backpack-23l-bpboh1rblu-original-imafz8f66gvawsgf.jpeg?q=70"
+                alt=""
+              />
+            </td> -->
+                        <td>
+                            <img src="https://rukminim1.flixcart.com/image/150/150/k3yrte80/shoe/h/8/p/sd0323g-10-sparx-white-black-original-imafmz8f5tyeqm9x.jpeg?q=70"
+                                alt="" />
+                        </td>
+                        <td>
+                            <img src="https://rukminim1.flixcart.com/image/150/150/kq5iykw0/shoe/j/d/p/6-pns8563412-robbie-jones-white-original-imag48by38jyp5hz.jpeg?q=70"
+                                alt="" />
+                        </td>
+                        <td>
+                            <img src="https://rukminim1.flixcart.com/image/150/150/k5vcya80pkrrdj/shoe/u/7/f/9-sx0482g-9-olive-yellow-sparx-original-imafhgrjhhkazf4h.jpeg?q=70"
+                                alt="" />
+                        </td>
+                        <td>
+                            <img src="https://rukminim1.flixcart.com/image/150/150/k6l2vm80/shoe/h/p/p/cd7093-009-10-nike-light-bone-black-string-pollen-rise-original-imafpymgfvsjegfg.jpeg?q=70"
+                                alt="" />
+                        </td>
+                        <td>
+                            <img src="https://rukminim1.flixcart.com/image/150/150/k6i7zww0/sandal/4/n/u/453-9-sparx-blue-original-imafa2rb6h3hrkqq.jpeg?q=70"
+                                alt="" />
+                        </td>
+                        <td>
+                            <img src="https://rukminim1.flixcart.com/image/150/150/k6fd47k0/shoe/n/z/k/bq3204-006-11-nike-platinum-tint-white-pink-blast-original-imafzvwpmn8swpag.jpeg?q=70"
+                                alt="" />
+                        </td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <th>Nike & Sketchers...</th>
+                    <th>Sparks , Liberty & More</th>
+                    <th>Best Selling Footwear...</th>
+                    <th>Sparks Beta & More</th>
+                    <th>Nike , Sketchers & More</th>
+                    <th>Sparks , pargon & khadim's</th>
+                    <th>Nike , Adidas & More/th>
+                </tbody>
+
+                <tbody>
+                    <td class="tdydl">Up to 40% Off</td>
+                    <td class="tdydl">From Rs. 121</td>
+                    <td class="tdydl">From Rs. 399</td>
+                    <td class="tdydl">Min. 50% Off </td>
+                    <td class="tdydl">Starting From 199</td>
+                    <td class="tdydl">Up to 60% Off</td>
+                    <td class="tdydl">Explore Now</td>
+                </tbody>
+
+                <tbody>
+                    <td class="tdyd2">Men Sports shoes</td>
+                    <td class="tdyd2">Shoes , Sandle & More</td>
+                    <td class="tdyd2">Shoes & Sneakers</td>
+                    <td class="tdyd2">Casual Shoe sneakers</td>
+                    <td class="tdyd2">Premium Brands</td>
+                    <td class="tdyd2">Sandles , Slippers & More</td>
+                    <td class="tdyd2">Premium Sports Shoe &...</td>
+                </tbody>
+            </table>
+
+
+            <br>
+            <hr class="no1" />
+
+            <div class="top_offers" width="100%">
+                <table class="top" width="100%">
+                    <thead>
+                        <td class="_offer">
+                            <div id="no1"><strong>Best of Electronics</strong></div>
+                            <!-- <br /> -->
+                            <div id="no2">Devices & Accessories</div>
+                        </td>
+                        <td class="_offer2"><button class="view">View all</button></td>
+                    </thead>
+                </table>
+            </div>
+
+            <div class="today_deal_item" width="100%">
+                <table width="100%">
+                    <thead>
+                        <tr>
+                            <td>
+                                <img src="https://rukminim1.flixcart.com/image/150/150/jh0vb0w0/dslr-camera/u/t/g/eos-m50-canon-original-imaf54t3aqfb6rpf.jpeg?q=70"
+                                    alt="" />
+                            </td>
+                            <!-- <td>
+                <img
+                  src="https://rukminim1.flixcart.com/image/150/150/k5lcvbk0/backpack/z/t/s/boho-with-rain-cover-blue-casual-backpack-23l-bpboh1rblu-original-imafz8f66gvawsgf.jpeg?q=70"
+                  alt=""
+                />
+              </td> -->
+                            <td>
+                                <img src="https://rukminim1.flixcart.com/image/150/150/kfyasnk0/cases-covers/back-cover/h/c/n/spigen-acs00990-original-imafwa9ua6fkgxjq.jpeg?q=70"
+                                    alt="" />
+                            </td>
+                            <td>
+                                <img src="https://rukminim1.flixcart.com/image/150/150/juwzf680/dslr-camera/g/a/q/200d-ii-200d-ii-canon-original-imaffvrhzyqzayys.jpeg?q=70"
+                                    alt="" />
+                            </td>
+                            <td>
+                                <img src="https://rukminim1.flixcart.com/image/150/150/j6zcwi80/instant-camera/5/q/n/ice-blue-with-brown-case-40-shots-mini-9-ice-blue-with-brown-original-imaex6nzgyqqzhfk.jpeg?q=70"
+                                    alt="" />
+                            </td>
+                            <td>
+                                <img src="https://rukminim1.flixcart.com/image/150/150/jqwny4w0/mousepad/h/g/j/eagletail-india-pubg-mp64-original-imafcszferfg8fa9.jpeg?q=70"
+                                    alt="" />
+                            </td>
+                            <td>
+                                <img src="https://rukminim1.flixcart.com/image/150/150/kbtp0280/speaker/soundbar/6/e/h/hw-t42e-xl-samsung-original-imaft2x2auj69ah6.jpeg?q=70"
+                                    alt="" />
+                            </td>
+                            <td>
+                                <img src="https://rukminim1.flixcart.com/image/200/200/jp8ngcw0/computer/m/g/h/microsoft-na-2-in-1-laptop-original-imafbgqzhjhmthh2.jpeg?q=70"
+                                    alt="" />
+                            </td>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <th>Top 15 Blogging cameras</th>
+                        <th>Best Brands</th>
+                        <th>Top 20 Cameras</th>
+                        <th>Fujifilm Instax Cameras</th>
+                        <th>mousepad</th>
+                        <th>Dolby Enabled</th>
+                        <th>microsoft-na-2-in-1-laptop-original</th>
+                    </tbody>
+
+                    <tbody>
+                        <td class="tdydl">From Rs.10,999</td>
+                        <td class="tdydl">Buy Now</td>
+                        <td class="tdydl">From Rs.4,000</td>
+                        <td class="tdydl">From Rs.4,000</td>
+                        <td class="tdydl">Up to 80% Off</td>
+                        <td class="tdydl">Up to 50% Off</td>
+                        <td class="tdydl">Just rs.29,999</td>
+                    </tbody>
+
+                    <tbody>
+                        <td class="tdyd2">NCEMI starting From Rs.1,999</td>
+                        <td class="tdyd2">For all phones model</td>
+                        <td class="tdyd2">DSLRs , Digital &</td>
+                        <td class="tdyd2">Mini9 , Mini11 & More</td>
+                        <td class="tdyd2">Over 40,000 Design</td>
+                        <td class="tdyd2">Home , Therater & Sound..</td>
+                        <td class="tdyd2">Microsoft,Apple..</td>
+                    </tbody>
+                </table>
+
+
+
+
+                <br>
+                <hr class="no1" />
+
+                <div class="top_offers">
+                    <table class="top" width="100%">
+                        <thead>
+                            <td class="_offer">
+                                <div id="no1"><strong>Best Battery Phones</strong></div>
+                                <!-- <br /> -->
+                                <div id="no2">More Then 4,000 MAh</div>
+                            </td>
+                            <td class="_offer2"><button class="view">View all</button></td>
+                        </thead>
+                    </table>
+                </div>
+
+                <div class="today_deal_item" width="100%">
+                    <table width="100%">
+                        <thead>
+                            <tr>
+                                <td>
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/kbb49zk0/mobile/x/f/u/tecno-spark-power-2-lc8-original-imafszvfcwxdgngz.jpeg?q=70"
+                                        alt="" />
+                                </td>
+                                <!-- <td>
+                <img
+                  src="https://rukminim1.flixcart.com/image/150/150/k5lcvbk0/backpack/z/t/s/boho-with-rain-cover-blue-casual-backpack-23l-bpboh1rblu-original-imafz8f66gvawsgf.jpeg?q=70"
+                  alt=""
+                />
+              </td> -->
+                                <td>
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/k51cpe80pkrrdj/mobile/z/y/h/oppo-a9-2020-cph1937-original-imafkhhxh2vsxnmq.jpeg?q=70"
+                                        alt="" />
+                                </td>
+                                <td>
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/kcm9t3k0/mobile/p/p/q/vivo-x50-pro-vivo-2006-original-imaftppahwbc6myx.jpeg?q=70"
+                                        alt="" />
+                                </td>
+                                <td>
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/kcauaa80/mobile/2/p/u/poco-m2-pro-mzb9621in-original-imaftg9fkdpgbgxq.jpeg?q=70"
+                                        alt="" />
+                                </td>
+                                <td>
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/kbs9k7k0/mobile/w/4/r/realme-x3-superzoom-rmx2085-original-imaft26hvewk4dpj.jpeg?q=70"
+                                        alt="" />
+                                </td>
+                                <td>
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/kavefm80/mobile/d/f/a/samsung-galaxy-m01-sm-m015gzbdins-original-imafscggmdqgt62q.jpeg?q=70"
+                                        alt="" />
+                                </td>
+                                <td>
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/k6zda4w0/mobile/s/n/9/tecno-camon-15-pro-cd8-original-imafpbhc7p25zda7.jpeg?q=70"
+                                        alt="" />
+                                </td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <th>Tecno spark pow..</th>
+                            <th>OPPO A0 2020(Mari.</th>
+                            <th>Vivo 50 Pro (Alpha gr</th>
+                            <th>POCO M2 pro (Two sha.</th>
+                            <th>realme 50(Super zoom.</th>
+                            <th>Samsung Galaxy M01</th>
+                            <th>Tecno Camon 15 p.</th>
+                        </tbody>
+
+                        <tbody>
+                            <td class="tdydl">6000MAh Battery</td>
+                            <td class="tdydl">6000MAh Battery</td>
+                            <td class="tdydl">4500MAh Battery</td>
+                            <td class="tdydl">5000MAh Battery</td>
+                            <td class="tdydl">4200MAh Battery</td>
+                            <td class="tdydl">4000MAh Battery</td>
+                            <td class="tdydl">4000MAh Battery</td>
+                        </tbody>
+
+                        <tbody>
+                            <td class="tdyd2">Rs.9,000</td>
+                            <td class="tdyd2">rs.!6,999</td>
+                            <td class="tdyd2">Now Rs.49,990</td>
+                            <td class="tdyd2">rs. 14,000</td>
+                            <td class="tdyd2">Now Rs.21,000</td>
+                            <td class="tdyd2">Now Rs.8,900</td>
+                            <td class="tdyd2">Now Rs.11,900</td>
+                        </tbody>
+                    </table>
+
+
+
+                    <br>
+                    <hr class="no1" />
+
+                    <div class="top_offers">
+                        <table class="top" width="100%">
+                            <thead>
+                                <td class="_offer">
+                                    <div class="foot">Fashion For Everyone</div>
+                                </td>
+                                <td class="_offer2"><button class="view">View all</button></td>
+                            </thead>
+                        </table>
+                    </div>
+
+                    <div class="today_deal_item" width="100%">
+                        <table width="100%">
+                            <thead>
+                                <tr>
+                                    <td>
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/jnj7iq80/night-dress-nighty/y/d/j/free-sl071-c-senslife-original-imafa6zenpnykmdu.jpeg?q=70"
+                                            alt="" />
+                                    </td>
+                                    <!-- <td>
+                <img
+                  src="https://rukminim1.flixcart.com/image/150/150/k5lcvbk0/backpack/z/t/s/boho-with-rain-cover-blue-casual-backpack-23l-bpboh1rblu-original-imafz8f66gvawsgf.jpeg?q=70"
+                  alt=""
+                />
+              </td> -->
+                                    <td>
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/jsoyrgw0/skirt/u/6/r/free-skirtl-79-unique-choice-original-imafe6xcugwsyqbh.jpeg?q=70"
+                                            alt="" />
+                                    </td>
+                                    <td>
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/jr83gy80/panty/w/j/y/l-pan30501-midnight-amante-original-imaf82g4trymmxgy.jpeg?q=70"
+                                            alt="" />
+                                    </td>
+                                    <td>
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/jbgtnrk0/blazer/a/y/q/44-blkp01-redwood-original-imafyr84ngqzxvqb.jpeg?q=70"
+                                            alt="" />
+                                    </td>
+                                    <td>
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/jtvtz0w0/lingerie-set/h/b/w/32a-glingerieset001-dpk-secret-world-original-imaffygga4ecrwpr.jpeg?q=70"
+                                            alt="" />
+                                    </td>
+                                    <td>
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/j9it30w0/bra-pad-petal/b/z/7/123-smooth-style-original-imaez9f335jpnphx.jpeg?q=70"
+                                            alt="" />
+                                    </td>
+                                    <td>
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/juwzf680/panty/e/r/q/s-t81-6360v-pink-mix-marks-spencer-original-imaffxk9xpkuqtgd.jpeg?q=70"
+                                            alt="" />
+                                    </td>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <th>Nightdress and Nighties</th>
+                                <th>For your Sister</th>
+                                <th>Panties</th>
+                                <th>Party Blazers for Men</th>
+                                <th>lingerie-set</th>
+                                <th>Bra Pads</th>
+                                <th>Panties</th>
+                            </tbody>
+
+                            <tbody>
+                                <td class="tdydl">MIN. 70% Off</td>
+                                <td class="tdydl">MIN. 50% Off</td>
+                                <td class="tdydl">Bestsellers</td>
+                                <td class="tdydl">Under Rs.1500</td>
+                                <td class="tdydl">Under Rs.299</td>
+                                <td class="tdydl">Fro, Rs.99</td>
+                                <td class="tdydl">MIN. 70% Off</td>
+                            </tbody>
+
+                            <tbody>
+                                <td class="tdyd2">Kalamotten , Kanika & More</td>
+                                <td class="tdyd2">Ethnic Skirts</td>
+                                <td class="tdyd2">Amante ven housen & M...</td>
+                                <td class="tdyd2">Best Prices</td>
+                                <td class="tdyd2">Safecare Yana & More</td>
+                                <td class="tdyd2">Silicon Foam Pad</td>
+                                <td class="tdyd2">Lace , Pad & More</td>
+                            </tbody>
+                        </table>
+
+
+
+                        <br>
+                        <hr class="no1" />
+
+                        <div class="top_offers">
+                            <table class="top" width="100%">
+                                <thead>
+                                    <td class="_offer">
+                                        <div class="foot">Monsoon Must-haves</div>
+                                    </td>
+                                    <td class="_offer2"><button class="view">View all</button></td>
+                                </thead>
+                            </table>
+                        </div>
+
+                        <div class="today_deal_item" width="100%">
+                            <table width="100%">
+                                <thead>
+                                    <tr>
+                                        <td>
+                                            <img src="https://rukminim1.flixcart.com/image/150/150/kmxsakw0/mosquito-net/v/x/p/double-bed-blue-mosquitonet-7x7-blue-mosquitonet-7x7-vs-original-imagfqh92mgt6sbx.jpeg?q=70"
+                                                alt="" />
+                                        </td>
+                                        <!-- <td>
+                <img
+                  src="https://rukminim1.flixcart.com/image/150/150/k5lcvbk0/backpack/z/t/s/boho-with-rain-cover-blue-casual-backpack-23l-bpboh1rblu-original-imafz8f66gvawsgf.jpeg?q=70"
+                  alt=""
+                />
+              </td> -->
+                                        <td>
+                                            <img src="https://rukminim1.flixcart.com/image/150/150/kdqa4y80/raincoat/2/z/m/12-13-years-t393-raincoat-adidas-aa-ad-av-original-imafuktbdxxsnazj.jpeg?q=70"
+                                                alt="" />
+                                        </td>
+                                        <td>
+                                            <img src="https://rukminim1.flixcart.com/image/150/150/koynr0w0/umbrella/l/t/5/21-leatrix-21-inch-2-fold-auto-open-eume-original-imag3avryrbwgmzz.jpeg?q=70"
+                                                alt="" />
+                                        </td>
+                                        <td>
+                                            <img src="https://rukminim1.flixcart.com/image/150/150/knqd3m80/torch/z/u/z/rechargeable-flashlight-one-of-the-smallest-and-lightest-35000lm-original-imag2bujpkz9mumf.jpeg?q=70"
+                                                alt="" />
+                                        </td>
+                                        <td>
+                                            <img src="https://rukminim1.flixcart.com/image/150/150/kh0vonk0/plant-sapling/m/h/h/rsplantoj-1606-1-ojorey-original-imafx4y8rcrxus6g.jpeg?q=70"
+                                                alt="" />
+                                        </td>
+                                        <td>
+                                            <img src="https://rukminim1.flixcart.com/image/150/150/kr58yvk0/mosquito-coil/s/n/7/mosquito-killer-trap-uv-mosquito-light-bug-mute-led-usb-mosquito-original-imag5yd2awhabv3m.jpeg?q=70"
+                                                alt="" />
+                                        </td>
+                                        <td>
+                                            <img src="https://rukminim1.flixcart.com/image/150/150/k4lmv0w0/cloth-dryer-stand/w/y/g/jb-n00010-tnc-original-imafh6hppz37syqz.jpeg?q=70"
+                                                alt="" />
+                                        </td>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <th>Mosquito Cell</th>
+                                    <th>Kids Raincoat</th>
+                                    <th>Umbrellas</th>
+                                    <th>Emergency Lights</th>
+                                    <th>Plants Sampling</th>
+                                    <th>mosquito-coil</th>
+                                    <th>Plant Containers</th>
+                                </tbody>
+
+                                <tbody>
+                                    <td class="tdydl">Min 70% Off</td>
+                                    <td class="tdydl">Min 50% Off</td>
+                                    <td class="tdydl">Extra 11% Off</td>
+                                    <td class="tdydl">Up to 60% Off</td>
+                                    <td class="tdydl">Best Seller</td>
+                                    <td class="tdydl">Min 70% Off</td>
+                                    <td class="tdydl">Starting From Rs.99</td>
+                                </tbody>
+
+                                <tbody>
+                                    <td class="tdyd2">Grab Now!</td>
+                                    <td class="tdyd2">Shop Now!</td>
+                                    <td class="tdyd2">Great Saving</td>
+                                    <td class="tdyd2">Explore Now</td>
+                                    <td class="tdyd2">Hurry , don't miss out!</td>
+                                    <td class="tdyd2">Discover Now</td>
+                                    <td class="tdyd2">Buy Now</td>
+                                </tbody>
+                            </table>
+
+</body>
+
+</html>
