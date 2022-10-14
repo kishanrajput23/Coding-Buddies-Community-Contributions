@@ -1,0 +1,4 @@
+381 : find bridges in a graph. 
+392 : m-coloring problem . 
+396 : chinese postman problem . 
+398 : minimise the cash flow. 

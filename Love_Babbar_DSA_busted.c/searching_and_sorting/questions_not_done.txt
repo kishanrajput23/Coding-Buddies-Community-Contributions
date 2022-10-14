@@ -1,0 +1,1 @@
+1. searching and sorting: rasta and kheshtak.  question is weird not done now it requires rabin-karp of strings. 
