@@ -1,0 +1,43 @@
+int cs(Node* head1 , Node* head2){
+    int cnt = 0;
+    while(head1 && head2){
+        if(head1->data == head2->data){
+            cnt++;
+            head1 = head1->next;
+            head2 = head2->next;
+        }
+        else{
+            return cnt;
+        }
+    }
+    return cnt;
+}
+
+
+int maxPalindrome(Node *head)
+{
+
+    if(head == NULL){
+        return 0;
+    }
+    if(head->next == NULL){
+        return 1;
+    }
+    Node* revhead = head;
+    head = head->next;
+    revhead->next = NULL;
+    int ans = 1;
+    while(head != NULL){
+        Node* next = head->next;
+        head->next = revhead;
+        revhead = head;
+        head = next;
+        ans = max(ans, cs(revhead, head)*2);
+        if(head){
+            ans = max(ans, cs(revhead, head->next)*2 + 1);
+        }
+        
+    }
+    
+    return ans;
+}
