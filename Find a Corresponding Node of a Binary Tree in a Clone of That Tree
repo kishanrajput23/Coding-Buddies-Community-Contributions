@@ -1,0 +1,19 @@
+class Solution {
+public:
+    void solve(TreeNode* &cloned,TreeNode * target ,TreeNode * &x ){
+        if(!cloned) return;
+        
+        if(target->val == cloned->val){
+            x = cloned;
+            
+        }
+        solve(cloned->left,target,x);
+        solve(cloned->right,target,x);
+        
+    }
+    TreeNode* getTargetCopy(TreeNode* original, TreeNode* cloned, TreeNode* target) {
+        TreeNode * Node = NULL;
+        solve(cloned, target , Node);
+        return Node;
+    }
+};
