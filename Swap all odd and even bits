@@ -1,0 +1,26 @@
+class Solution
+{
+    public:
+    //Function to swap odd and even bits.
+    unsigned int swapBits(unsigned int n)
+    {
+    	string str = "";
+    	while(n>0){
+    	    if(n&1) str += '1';
+    	    else str += '0';
+    	    n = n>>1;
+    	}
+    	if(str.size()&1) str += '0';
+    	reverse(str.begin(),str.end());
+    	int j=str.size()-1;
+    	while(j-1>=0){
+    	    swap(str[j],str[j-1]);
+    	    j -= 2;
+    	}
+    	unsigned int ans = 0;
+    	for(int i=str.size()-1;i>=0;i--){
+    	    ans += (str[i]-'0')*pow(2,str.size()-1-i);
+    	}
+    	return ans;
+    }
+};
