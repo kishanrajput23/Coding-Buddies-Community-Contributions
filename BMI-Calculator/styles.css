@@ -4,9 +4,11 @@ body{
   text-align: center;
   font-family: sans-serif;
   height: 100vh;
-  background-image: url(https://images.unsplash.com/photo-1597655601841-214a4cfe8b2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjBzY2VuZXJ5fGVufDB8fDB8fA%3D%3D&w=1000&q=80);
-  background-size: cover;
+  background-image: url("BMI.jpg"), url("BMI2.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(111 31 189 / 57%);
+  
 }
 
 div{
@@ -44,7 +46,9 @@ h2{
 }
 
 #result{
-  color: #fff;
+      color: rgb(13 233 91);
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #btn{
@@ -52,7 +56,7 @@ h2{
   margin-top: 10px;
   border: none;
   color: #fff;
-  background-color: #828588;
+  background-color: #622828;
   width: 150px;
   padding: 10px;
   outline: none;
