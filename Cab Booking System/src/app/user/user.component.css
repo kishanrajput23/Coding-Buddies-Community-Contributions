@@ -1,0 +1,16 @@
+.style{
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlJLZ8xBhdGQhBfDGH_yrCNOF7AEp-kniQrw&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.btn{
+    min-width: 15%;
+    border-radius: 5%;
+}
+.UserDetailsDiv{
+    border-radius: 2%;
+    background-color: antiquewhite;
+    max-width: 50%;
+    margin-top:5%; 
+}

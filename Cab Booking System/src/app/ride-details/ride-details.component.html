@@ -1,0 +1,51 @@
+<app-navbar></app-navbar>
+<div class="container mainDiv">
+<table style="width:-webkit-fill-available">
+
+    <tbody>
+        <tr>
+            <td>Status</td>
+            <td>{{this.rideDetails.status}}</td>
+        </tr>
+        <tr>
+            <td>Source</td>
+            <td>{{this.rideDetails.source}}</td>
+        </tr>
+        <tr>
+            <td>Destination</td>
+            <td>{{this.rideDetails.destination}}</td>
+        </tr>
+        <tr>
+            <td>Fare</td>
+            <td>{{this.rideDetails.fare}}</td>
+        </tr>
+        <tr>
+            <td>Car Type</td>
+            <td>{{this.rideDetails.carType}}</td>
+        </tr>
+        <tr *ngIf='isDriver'>
+            <td>Customer Name</td>
+            <td>
+                {{this.rideDetails.userName}}
+            </td>
+        </tr>
+        <tr *ngIf='!isDriver'>
+            <td>Driver Name</td>
+            <td>
+                {{this.rideDetails.driverName}}
+            </td>
+        </tr>
+        
+        <tr *ngIf="this.rideDetails.phoneNumber!=undefined">
+            <td>Mobile No.</td>
+            <td>{{this.rideDetails.userId}}</td>
+        </tr>
+        <tr *ngIf="this.rideDetails.cabNumber!=undefined">
+            <td>Cab No.</td>
+            <td>AP30 0N 9865</td>
+        </tr>
+    </tbody>
+</table>
+<br/>
+<button *ngIf='!isDriver' class="btn btn-dark btn-lg btn-block cancelBtn" (click)="cancelRide()" type="button" >Cancel Ride</button>
+</div>

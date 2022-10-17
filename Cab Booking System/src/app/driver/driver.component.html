@@ -1,0 +1,43 @@
+
+<div class="style">
+    <div class="container mainDiv">
+    <br>
+    <div class="container" style="max-width: 600px; ">
+      <form #newLoginForm="ngForm" (ngSubmit)=" submitDriver(newLoginForm.value)">
+        <!--small [class.text-danger]="msg.status == 500">{{msg.message}}</small!-->
+        
+        <div class="form-outline mb-4" class="form-group"
+        [ngClass]="{'error': newLoginForm.controls.username?.invalid && newLoginForm.controls.username?.touched}">
+        <label class="form-label" required for="form2Example17">username</label>
+        
+        <input type="text" ngModel id="username" required pattern="^[a-zA-Z0-9]+$"
+            placeholder="Enter username" name="username" class="form-control form-control-lg" />
+        <em *ngIf="newLoginForm.controls.username?.invalid && (newLoginForm.controls.username?.touched)"
+            class="text-danger">please provide valid username</em>
+    </div>
+    
+    <div class="form-outline mb-4" class="form-group"
+    [ngClass]="{'error': newLoginForm.controls.password?.invalid && newLoginForm.controls.password?.touched}">
+    <label class="form-label" required for="form2Example17">password</label>
+    <input type="password" ngModel id="password" required pattern="^[a-zA-Z0-9]+$" name="password"
+        placeholder="Enter password" class="form-control form-control-lg" />
+    <em *ngIf="newLoginForm.controls.password?.invalid && (newLoginForm.controls.password?.touched)"
+        class="text-danger">please provide valid password</em>
+</div>
+
+    <br>
+        <div>
+
+        <button [disabled]="newLoginForm.form.invalid" type="submit" class="btn btn-info">submit</button>
+        </div>
+        <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="/driverRegister" style="color: #393f81;">Register here</a></p> 
+            <a href="#!" class="small text-muted">Terms of use.</a>
+            <a href="#!" class="small text-muted">Privacy policy</a>
+
+    </form>
+
+    </div>
+</div>
+    <br><br><br><br><br>
+    </div>
+  

@@ -1,0 +1,25 @@
+<app-navbar></app-navbar>
+<div class="rideDetails center-hori mainDiv">
+    <div class="center-hori" style="margin-left: 40%;">Driver Rides</div>
+    <br>
+    <table style="width:-webkit-fill-available;">
+    
+        <tbody>
+            <tr>
+                <th>Source</th>
+                <th>Destination</th>
+                <th>Customer Name</th>
+                <th>Final Fare</th>
+            </tr>
+            <ng-container *ngFor="let ride of driverRides">
+                <tr>
+                    <td>{{ride.source}}</td>
+                    <td>{{ride.destination}}</td>
+                    <td>{{ride.userName}}</td>
+                    <td>{{ride.fare}}</td>
+                </tr>
+            </ng-container>
+            
+        </tbody>
+    </table>
+    </div>

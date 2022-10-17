@@ -1,0 +1,19 @@
+table, th, td {
+    border: 4px solid black;
+    border-collapse: collapse;
+  }
+
+.center-hori{
+    width:50%;
+    margin: 0 auto;
+}
+
+.mainDiv{
+  background-color: antiquewhite;
+  max-width: 80%;
+  padding: 5%;
+  margin-top: 5%;
+}
+td,th {
+  text-align: center;
+}
