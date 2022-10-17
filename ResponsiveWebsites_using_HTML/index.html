@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pineapple</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+
+      main {
+        width: 100%;
+        height: 100vh;
+        background: url(https://source.unsplash.com/460x500/?light) center
+          no-repeat;
+        background-size: cover;
+        padding: 5% 10%;
+        position: relative;
+      }
+
+      main::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.1);
+        z-index: 1;
+      }
+
+      header,
+      section {
+        z-index: 2;
+      }
+
+      header {
+        width: 100%;
+      }
+
+      header ol {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      header ol li {
+        padding: 0 20px;
+      }
+
+      header ol li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 700;
+        color: #818181;
+        font-size: 16px;
+      }
+
+      header ol li a.active {
+        color: #000000;
+        position: relative;
+      }
+
+      header ol li a.active::after {
+        content: "";
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+        border-bottom: 2px solid #000000;
+      }
+
+      section {
+        position: absolute;
+        text-align: right;
+        top: 50%;
+        right: 10%;
+        transform: translate(0, -50%);
+      }
+
+      section h4 {
+        font-size: 24px;
+        color: #818181;
+        font-weight: 400;
+      }
+
+      section h1 {
+        font-size: 70px;
+        color: #818181;
+        font-weight: 700;
+      }
+
+      section h1 span {
+        font-weight: 400;
+        color: #000000;
+      }
+
+      section button {
+        background-color: #000000;
+        color: rgba(255, 255, 255, 0.8);
+        font-weight: 700;
+        border: none;
+        outline: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 15px 30px;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <ol>
+          <li><a href="#" class="active">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">gallery</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">contact</a></li>
+        </ol>
+      </header>
+      <section>
+        <h4>Image by freestocks.org</h4>
+        <h1>Design <span>Different</span></h1>
+        <button>get started</button>
+      </section>
+    </main>
+  </body>
+</html>
