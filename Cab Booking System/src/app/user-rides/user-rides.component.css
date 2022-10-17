@@ -1,0 +1,23 @@
+table, th, td {
+    border: 4px solid black;
+    border-collapse: collapse;
+  }
+
+.center-hori{
+    width:50%;
+    margin: 0 auto;
+}
+.rideCompleteStatus{
+    background: aquamarine;
+}
+.rideCancelledStatus{
+    background: red;
+}
+.rideActiveStatus{
+    background: rgb(0, 128, 32);
+}
+.rideDetails{
+    background-color: antiquewhite;
+    margin-top: 20%;
+    padding: 5%;
+}

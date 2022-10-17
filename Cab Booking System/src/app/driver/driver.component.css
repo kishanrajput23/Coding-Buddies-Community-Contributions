@@ -1,0 +1,14 @@
+.style{
+    height: 100%;
+    background-image: url('https://wallpapercave.com/wp/wp1878238.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+   padding: 5%;
+}
+.mainDiv{
+    background-color: antiquewhite;
+    max-width: 40%;
+    padding: 5%;
+    margin-top: 10%;
+}

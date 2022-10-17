@@ -1,0 +1,15 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+.mainDiv{
+  background-color: antiquewhite;
+  width: 50%;
+  margin-top:5%;
+  padding: 5%;
+}
+.cancelBtn{
+  align-items: center;
+    margin-left: 35%;
+    background-color: red;
+}

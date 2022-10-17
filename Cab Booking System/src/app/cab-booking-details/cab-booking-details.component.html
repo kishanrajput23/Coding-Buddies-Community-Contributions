@@ -1,0 +1,13 @@
+<app-navbar></app-navbar>
+<h3>BOOKING DETAILS</h3>
+<table>
+    <tr>
+        <th>SOURCE</th>
+        <th>DESTINATION</th>
+    </tr>
+    <tr *ngFor="let cab of userDetails">
+        <td>{{cab.source}}</td>
+        <td>{{cab.destination}}</td>
+        
+    </tr>
+</table>
