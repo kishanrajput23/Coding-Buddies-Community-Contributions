@@ -1,0 +1,367 @@
+:root {
+  --lblue: #00baf2;
+  --dblue: #002970;
+  --dirtyblue: #0f4a8a;
+  --grey: #f5f7fa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+*:hover {
+  cursor: default;
+}
+body {
+  background: var(--grey);
+  color: #000;
+  overflow-x: hidden;
+}
+div {
+  overflow: hidden;
+}
+h1 {
+  font-size: 3.4em;
+  font-weight: 600;
+  max-width: max-content;
+}
+h2 {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1em;
+}
+.wt400 {
+  font-weight: 400;
+}
+header {
+  padding: 2px 5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff;
+  min-width: min-content;
+  justify-content: space-between;
+  height: 5em;
+  width: 90%;
+}
+.paytm-logo {
+  height: 30px;
+  float: left;
+  margin-right: 1vw;
+}
+
+.paytm-logo:hover {
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  min-height: fit-content;
+}
+.nav h2 {
+  margin-right: 5px;
+  padding: 10px 10px;
+}
+.nav h2:hover {
+  background: #8080;
+}
+.sign-in {
+  padding: 0px 15px;
+  margin: 0px;
+  outline: none;
+  border: none;
+  background: var(--lblue);
+  text-align: left;
+  padding: 10px 25px;
+  color: #fff;
+  min-width: fit-content;
+  border-radius: 4ch;
+  float: right;
+}
+.sign-in *:hover,
+.sign-in:hover {
+  cursor: pointer;
+}
+.sign-in:hover {
+  background: var(--dblue);
+}
+.nav h2:hover {
+  background: #f5f7fa;
+  cursor: pointer;
+  border-radius: 4pt;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a *:hover,
+a:hover {
+  cursor: pointer;
+}
+
+.full-card {
+  white-space: nowrap;
+  padding: 10px 0px;
+  background: #f5f5f6;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  color: black;
+  box-shadow: inset 0px 0px 10px 2px #d4d4d469;
+}
+.full-card * {
+  padding: 0 0.1ch;
+  background: transparent;
+}
+
+.white {
+  background: #fff;
+}
+
+.lblue {
+  background: var(--lblue);
+  color: #fff;
+}
+
+.dblue {
+  background: var(--dblue);
+  color: #fff;
+}
+.dirtyblue {
+  background: var(--dirtyblue);
+  color: #fff;
+}
+
+.grey {
+  background: var(--grey);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+.paytm-square-logo {
+  height: 84px;
+  border-radius: 20pt;
+  box-shadow: 0px 0px 10px 1px rgba(50, 50, 50, 0.1);
+}
+.noshadow {
+  box-shadow: none;
+}
+.phonesjpg {
+  height: 500px;
+}
+
+.download {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  outline: none;
+  border-radius: 16pt;
+  background: #000;
+  color: #fff;
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.download * {
+  padding: 0px 2px;
+}
+.apple,
+.android {
+  height: 1.2em;
+  filter: brightness(0) invert(1);
+}
+.left {
+  white-space: nowrap;
+  width: 50%;
+}
+.h1 {
+  margin-bottom: 15px;
+}
+.paytm-square-logo,
+.h2,
+.download {
+  margin-bottom: 40px;
+}
+.download:hover,
+.download *:hover {
+  cursor: pointer;
+}
+.download:hover {
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  color: #fff;
+  filter: invert(1);
+}
+.container {
+  margin: 30px 0;
+  padding: 60px 0;
+  width: 1080px;
+  overflow-x: hidden;
+}
+.border {
+  border-radius: 16pt;
+}
+.nomargin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.full {
+  width: 100%;
+}
+.corners {
+  justify-content: space-between;
+}
+.center {
+  margin: auto;
+  width: fit-content;
+}
+
+.right {
+  justify-content: right;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-left: 2px;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  padding: 10px 50px 10px 20px;
+  margin-right: 30px;
+  white-space: nowrap;
+  min-width: 85px;
+}
+.item h2 {
+  font-size: 1.1em;
+}
+.item h2,
+.item h3 {
+  line-height: 1.4em;
+}
+.item:hover {
+  cursor: pointer;
+  background-color: rgba(10, 10, 10, 0.1);
+  border-radius: 8pt;
+}
+
+.imgnav {
+  height: 72px;
+  padding-bottom: 20px;
+}
+
+.padded {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.margin {
+  margin-top: 30px;
+}
+
+.maxwidth {
+  width: 1080px;
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.labeltext {
+  padding: 0px 20px 45px;
+}
+.navlbluedblueheadfont {
+  font-size: 2.3em;
+}
+
+@media (max-width: 1080px) {
+  body {
+    overflow: visible;
+  }
+  .navlbluedblueheadfont,
+  h1 {
+    font-size: 3vw;
+  }
+  h2 {
+    font-size: 2vw;
+  }
+  h3 {
+    font-size: 1.5vw;
+  }
+  .paytm-logo {
+    height: 3.5vw;
+  }
+  .sign-in {
+    padding: 0.5vw 1vw;
+  }
+  .container {
+    width: 100%;
+  }
+  .imgnav {
+    height: 6vw;
+  }
+  .maxwidth {
+    width: 90%;
+  }
+  .phonesjpg {
+    height: 35vw;
+  }
+  .padded {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .item {
+    padding: 10px 1vw 10px 1vw;
+    margin: 00px;
+    white-space:normal;
+    min-width: 12vw;
+  }
+  .paytm-square-logo {
+    height: 10vw;
+  }
+
+  .download {
+    padding: 1.5vw 2vw;
+  }
+  .download * {
+    padding: 0px 0.5vw;
+  }
+  .apple,
+  .android {
+    height: 2vw;
+  }
+  .arrow {
+    border: solid white;
+    border-width: 0 0.2vw 0.2vw 0;
+    display: inline-block;
+    padding: 0.2vw;
+  }
+  .item h2 {
+    font-size: 2vw;
+  }
+  .nav h2 {
+    margin-right: 5px;
+    padding: 10px 1vw;
+  }
+  .left {
+    white-space: normal;
+  }
+  .card .left {
+  }
+}
