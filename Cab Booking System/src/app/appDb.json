@@ -1,0 +1,303 @@
+{
+  "users": [
+    {
+      "id": "user_1",
+      "username": "TestUser1",
+      "fname": "kim mod",
+      "password": "vkvm",
+      "lname": "Andy"
+    },
+    {
+      "username": "TestUser3",
+      "fname": "kim3",
+      "lname": "Andy3",
+      "password": "vkvm",
+      "id": "8IL3yIn"
+    },
+    {
+      "firstname": "varma",
+      "lastname": "kvm",
+      "username": "vkvm",
+      "password": "vkvm",
+      "id": "6rjE4sm"
+    },
+    {
+      "firstname": "sateesh",
+      "lastname": "kaatnam",
+      "username": "skatnam",
+      "password": "skatnam",
+      "id": "tfgJnaY"
+    },
+    {
+      "firstname": "tts",
+      "lastname": "yfsy",
+      "username": "shfygs",
+      "password": "qdghfs",
+      "id": "GnxVCb7"
+    },
+    {
+      "firstname": "sateesh",
+      "lastname": "kaatnam",
+      "username": "skatnam",
+      "password": "123456",
+      "id": "FqnupvG"
+    },
+    {
+      "firstname": "Kim",
+      "lastname": "Andy",
+      "username": "kimAndy",
+      "password": "123456",
+      "id": "8tq8xb_"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "driver_2",
+      "username": "TestDriver1",
+      "fname": "James",
+      "lname": "Andy"
+    },
+    {
+      "firstname": "ram",
+      "lastname": "ramesh",
+      "username": "ramram",
+      "password": "re",
+      "phoneNumber": "123",
+      "vehicleNumber": "1235AP",
+      "id": "qUZjU8P"
+    },
+    {
+      "firstname": "test",
+      "lastname": "test",
+      "username": "test",
+      "password": "test",
+      "phoneNumber": "123",
+      "vehicleNumber": "123456",
+      "id": "UOwl-OQ"
+    },
+    {
+      "firstname": "varma",
+      "lastname": "kvm",
+      "username": "vkvm",
+      "password": "vkvm",
+      "phoneNumber": "8328286258",
+      "vehicleNumber": "AP31S2121",
+      "id": "HMkXfII"
+    },
+    {
+      "firstname": "James",
+      "lastname": "Bond",
+      "username": "jbond",
+      "password": "123456",
+      "phoneNumber": "9874563210",
+      "vehicleNumber": "AP35S1234",
+      "id": "D4DMuSr"
+    }
+  ],
+  "rides": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "source": "test",
+      "destination": "test",
+      "fare": 178,
+      "carType": "volvo",
+      "userId": "6rjE4sm",
+      "driverId": "",
+      "status": "Accepted",
+      "id": 3,
+      "driverName": "ram ramesh",
+      "userName": ""
+    },
+    {
+      "source": "test",
+      "destination": "test",
+      "fare": 156,
+      "carType": "volvo",
+      "userId": "6rjE4sm",
+      "driverId": "",
+      "status": "Accepted",
+      "id": 4,
+      "driverName": "ram ramesh",
+      "userName": ""
+    },
+    {
+      "source": "test",
+      "destination": "test",
+      "fare": 144,
+      "carType": "volvo",
+      "userId": "6rjE4sm",
+      "driverId": "qUZjU8P",
+      "status": "Accepted",
+      "id": 5,
+      "driverName": "ram ramesh",
+      "userName": ""
+    },
+    {
+      "source": "test",
+      "destination": "test",
+      "fare": 151,
+      "carType": "volvo",
+      "userId": "6rjE4sm",
+      "driverId": "qUZjU8P",
+      "status": "Accepted",
+      "id": 6,
+      "driverName": "ram ramesh",
+      "userName": ""
+    },
+    {
+      "source": "test",
+      "destination": "test",
+      "fare": 131,
+      "carType": "volvo",
+      "userId": "6rjE4sm",
+      "driverId": "qUZjU8P",
+      "status": "Accepted",
+      "id": 7,
+      "driverName": "ram ramesh",
+      "userName": ""
+    },
+    {
+      "source": "test",
+      "destination": "test",
+      "fare": 164,
+      "carType": "volvo",
+      "userId": "{\"firstname\":\"varma\",\"lastname\":\"kvm\",\"username\":\"vkvm\",\"password\":\"vkvm\",\"id\":\"6rjE4sm\"}",
+      "driverId": "qUZjU8P",
+      "status": "Accepted",
+      "id": 8,
+      "driverName": "ram ramesh",
+      "userName": "undefined undefined"
+    },
+    {
+      "source": "test",
+      "destination": "test",
+      "fare": 188,
+      "carType": "volvo",
+      "userId": "{\"firstname\":\"varma\",\"lastname\":\"kvm\",\"username\":\"vkvm\",\"password\":\"vkvm\",\"id\":\"6rjE4sm\"}",
+      "driverId": "qUZjU8P",
+      "status": "Accepted",
+      "id": 9,
+      "driverName": "ram ramesh",
+      "userName": "undefined undefined"
+    },
+    {
+      "id": 10
+    },
+    {
+      "source": "test",
+      "destination": "test",
+      "fare": 168,
+      "carType": "volvo",
+      "userId": "",
+      "driverId": "qUZjU8P",
+      "status": "Accepted",
+      "id": 11,
+      "driverName": "ram ramesh",
+      "userName": "varma kvm"
+    },
+    {
+      "source": "test",
+      "destination": "test",
+      "fare": 196,
+      "carType": "volvo",
+      "userId": "",
+      "driverId": "UOwl-OQ",
+      "status": "Accepted",
+      "id": 12,
+      "driverName": "test test",
+      "userName": "sateesh kaatnam"
+    },
+    {
+      "source": "bang",
+      "destination": "mang",
+      "fare": 197,
+      "carType": "saab",
+      "userId": "",
+      "driverId": "HMkXfII",
+      "status": "Accepted",
+      "id": 13,
+      "driverName": "varma kvm",
+      "userName": "varma kvm"
+    },
+    {
+      "source": "bangalore",
+      "destination": "mangalore",
+      "fare": 129,
+      "carType": "volvo",
+      "userId": "",
+      "driverId": "qUZjU8P",
+      "status": "Accepted",
+      "id": 14,
+      "driverName": "ram ramesh",
+      "userName": "sateesh kaatnam"
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "source": "Bangalore",
+      "destination": "hyd",
+      "fare": 180,
+      "carType": "volvo",
+      "userId": "6rjE4sm",
+      "driverId": "D4DMuSr",
+      "status": "Accepted",
+      "id": 20,
+      "driverName": "James Bond",
+      "userName": "Kim Andy"
+    },
+    {
+      "source": "hyd",
+      "destination": "bang",
+      "fare": 148,
+      "carType": "volvo",
+      "userId": "6rjE4sm",
+      "driverId": "",
+      "status": "Booked",
+      "id": 21,
+      "driverName": "",
+      "userName": "varma kvm"
+    },
+    {
+      "source": "hyd",
+      "destination": "bang",
+      "fare": 153,
+      "carType": "saab",
+      "userId": "6rjE4sm",
+      "driverId": "qUZjU8P",
+      "status": "Accepted",
+      "id": 22,
+      "driverName": "ram ramesh",
+      "userName": "varma kvm"
+    },
+    {
+      "source": "hyd",
+      "destination": "bangalore",
+      "fare": 164,
+      "carType": "volvo",
+      "userId": "6rjE4sm",
+      "driverId": "qUZjU8P",
+      "status": "Accepted",
+      "id": 23,
+      "driverName": "ram ramesh",
+      "userName": "varma kvm"
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to RBSMTC</title>
+    <link rel="icon" type="image/png" href="img/IIITV_Logo_1x1_small.png">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body id="home">
+<!-- Start Your Body Code From here -->
+<div class="wrapper">
+    <!-- header starts here -->
+    <header id="header" class="">
+        <!-- header -->
+        <div class="header-wrapper">
+            <div class="header-container">
+                <div>
+                    <div class="logo-name">
+                        <div class="logo"><a href="index.html" title=""><img src="img/IIITV_Logo_1x1_small.png"
+                                                                             alt="logo"></a></div>
+                        <div class="name">
+                            <a href="index.html" title="">
+                                <h5>RAJA BALWANT SINGH MANAGEMENT TECHNICAL CAMPUS</h5>
+                                <h5 class="primary-color">KHANDARI AGRA</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-links">
+                    <a href="#" data-toggle="popover" title="Address"
+                       data-content="c/o Block No.9 (IC Department), Government Engineering College, Sector-28, Gandhinagar, Gujarat - 382028"
+                       data-placement="bottom"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></a>
+
+                    <a href="#" data-toggle="popover" title="Phone No." data-content="+91-79-29750281"
+                       data-placement="bottom"><i class="fa fa-phone fa-lg" aria-hidden="true"></i></a>
+
+                    <a href="#" data-toggle="popover" title="Email" data-content="helpdesk@iiitvadodara.ac.in"
+                       data-placement="bottom"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="navbar navbar-inverse navbar-custom" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Institute <b
+                                        class="caret"></b></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="directors_message.html">Director's Message</a></li>
+                                    <li><a href="bog.html">Board of Governors</a></li>
+                                    <li><a href="society_members.html">Society Members</a></li>
+                                    <li><a href="academic_council.html">Academic Council</a></li>
+                                    <li><a href="finance_committee.html">Finance Committee</a></li>
+                                    <li><a href="rti.html">RTI</a></li>
+                                    <li><a href="pdf/MOU.pdf">MOU</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Linkages</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="linkages/da-iict.html">DA-IICT</a></li>
+                                            <li><a href="linkages/gsfc.html">GSFC</a></li>
+                                            <li><a href="linkages/germi.html">GERMI</a></li>
+                                            <li><a href="linkages/tcs.html">TCS</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academics <b
+                                        class="caret"></b></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li class="dropdown-submenu">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">B.Tech</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="btech_cse.html">CSE</a></li>
+                                            <li><a href="btech_it.html">IT</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">M.Tech</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="mtech_cse.html">CSE</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="phd.html">Ph.D</a></li>
+                                    <li><a href="pdf/academic_calendar_autumn_2015_16.pdf">Academic Calender</a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission <b
+                                        class="caret"></b></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li><a href="btech_admission.html">B.Tech</a></li>
+                                    <li><a href="mtech_admission.html">M.Tech</a></li>
+                                    <li><a href="phd_admission.html">Ph.D</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">People <b class="caret"></b></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li><a href="faculty.html">Faculty</a></li>
+                                    <li><a href="visiting_faculty.html">Visiting Faculty</a></li>
+                                    <li><a href="staff.html">Staff</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b
+                                        class="caret"></b></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li><a href="faq.html">FAQs</a></li>
+                                    <li><a href="student_corner.html">Student's Corner</a></li>
+                                    <li><a href="http://moodle.iiitv.ac.in" target="_blank">Moodle</a></li>
+                                    <li><a href="library.html">Library</a></li>
+                                    <li><a href="invited_talks.html">Invited Talks</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="career.html">Career</a></li>
+                            <li><a href="gallery.html">Photo Gallery</a></li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- /header -->
+
+    <!-- carousel -->
+    <div class="carousel-wrapper">
+        <div class="carousel" style="margin: 0 auto">
+            <div class="carousel-items">
+                <img height="400px" src="https://th.bing.com/th/id/OIP.9Na46ZhzNhtPQhXKwoT3TgHaFj?w=232&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" alt="Faculty">
+                <div></div>
+            </div>
+            <div class="carousel-items">
+                <img height="400px" src="https://th.bing.com/th/id/OIP.YnYoXYTPAixWokQly_ny2QHaDx?w=303&h=178&c=7&r=0&o=5&dpr=1.25&pid=1.7" alt="Gallery">
+                <div></div>
+            </div>
+            <div class="carousel-items">
+                <img height="400px" src="data:image/jpeg;base64,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" alt="Students"><div></div>
+            </div>
+            <div class="carousel-items">
+                <img height="400px" src="https://th.bing.com/th/id/OIP.twas3cUI-QT8LOaYv8waqQHaFY?w=233&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" alt="Talk">
+                <div></div>
+            </div>
+            <div class="carousel-items">
+                <img height="400px" src="https://th.bing.com/th/id/OIP.0nKF96qKWRTzCCj6wBTz7QHaCM?w=322&h=103&c=7&r=0&o=5&dpr=1.25&pid=1.7" alt="Winners">
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Announcements, Events, News -->
+    <div class="widgets-wrapper">
+        <div class="widgets-container">
+
+            <!-- Edit this section for important announcements.-->
+            <div class="alert alert-warning text-center">
+                Institute invites applications for <a class="alert-link" href="http://pgadmissions.iiitvadodara.ac.in/">MTech
+                and PhD programs - Academic Year 2016-17</a>
+            </div>
+
+            <!-- Announcements -->
+            <div class="col-sm-4" id="announcements">
+                <div class='announcement-content '>
+                    <div class="widgets-title"><h2>Announcements</h2></div>
+                    <ul id="announcement-list">
+                        <li>
+                            For admissions to <b>M.Tech. and Ph.D. programs</b> visit:<br><a
+                                href="http://pgadmissions.iiitvadodara.ac.in" target="_blank"> PG-Admission-Portal.</a>
+                        </li>
+                        <li>
+                            For queries related to <b>B.Tech. programs </b>contact us at: &nbsp; &nbsp; <span
+                                style="font-size: 12px; font-weight: bold;color:Black"><a
+                                href="mailto:admissions@iiitvadodara.ac.in">admissions@iiitvadodara.ac.in</a></span>
+                        </li>
+                        <li>
+                            Government of India Schemes for Students' Welfare <a
+                                href="https://www.vidyalakshmi.co.in/Students/indexPopup" target="_blank">www.vidyalakshmi.co.in </a><a
+                                href="https://www.scholarships.gov.in/main.do" target="_blank">
+                            www.scholarships.gov.in </a>
+                        </li>
+                    </ul>
+                    <div id="announcement-list-pagination">
+                        <a id="announcement-list-previous" href="#">
+                            <span><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+
+                        </a>
+                        <a id="announcement-list-next" href="#">
+                            <span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Events -->
+            <div class="col-sm-4" id="events">
+                <div class="events-content">
+                    <div class="widgets-title"><h2>Events</h2></div>
+                    <ul id="events-list">
+                        <li>
+                            <!-- Events -->
+                            <div class="event-container">
+                                <!-- Date -->
+                                <div class="date">
+                                        <span>
+                                            <!-- Day -->
+                                            <div class="day">9</div>
+                                            <!-- Month Short Form (first three letters) -->
+                                            <div class="month">Apr</div>
+                                        </span>
+                                </div>
+                                <!-- Event-Description -->
+                                <div class="event-text">First Annual Institute Day</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="event-container">
+                                <!-- Date -->
+                                <div class="date">
+                                            <span>
+                                                <!-- Day -->
+                                                <div class="day">12</div>
+                                                <!-- Month Short Form (first three letters) -->
+                                                <div class="month">Mar</div>
+                                            </span>
+                                </div>
+                                <!-- Event-Description -->
+                                <div class="event-text">Hackathon 2016</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="event-container">
+                                <!-- Date -->
+                                <div class="date">
+                                            <span>
+                                                <!-- Day -->
+                                                <div class="day">5</div>
+                                                <!-- Month Short Form (first three letters) -->
+                                                <div class="month">Mar</div>
+                                            </span>
+                                </div>
+                                <!-- Event-Description -->
+                                <div class="event-text">Sports Festival Ventura 2016</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="event-container">
+                                <!-- Date -->
+                                <div class="date">
+                                            <span>
+                                                <!-- Day -->
+                                                <div class="day">26</div>
+                                                <!-- Month Short Form (first three letters) -->
+                                                <div class="month">Jan</div>
+                                            </span>
+                                </div>
+                                <!-- Event-Description -->
+                                <div class="event-text">Republic Day</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="event-container">
+                                <!-- Date -->
+                                <div class="date">
+                                            <span>
+                                                <!-- Day -->
+                                                <div class="day">14</div>
+                                                <!-- Month Short Form (first three letters) -->
+                                                <div class="month">Jan</div>
+                                            </span>
+                                </div>
+                                <!-- Event-Description -->
+                                <div class="event-text">Nabhyaan: A festival of kite</div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <div id="events-list-pagination">
+                        <a id="events-list-previous" href="#">
+                            <span><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+
+                        </a>
+                        <a id="events-list-next" href="#">
+                            <span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-4" id="news">
+                <div class='news-content '>
+                    <div class="widgets-title"><h2>News</h2></div>
+                    <ul id="news-list">
+                        <li>
+                            <a href="http://aviaryan.in" target="_blank">Mr. Avi Aryan</a> got selected in Google Summer
+                            of Code 2016.
+
+                        </li>
+                    </ul>
+                    <div id="news-list-pagination">
+                        <a id="news-list-previous" href="#">
+                            <span><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+
+                        </a>
+                        <a id="news-list-next" href="#">
+                            <span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-wrapper">
+            <span class="logo"><img src="img/IIITV_Logo_1x1_small.png" alt=""></span>
+            <div class="row">
+                <div class="col-sm-4 address">
+                    <strong>Address : </strong>Khandari Agra, Uttar pradesh                 </div>
+                <div class="col-sm-4 links">
+                    <div>
+                        <a href="#news">News</a>
+                        <i class="seperator"></i>
+                        <a href="#announcements">Announcement</a>
+                        <i class="seperator"></i>
+                        <a href="#events">Events</a>
+                    </div>
+                    <div>
+                        <a href="#">Home</a>
+                        <i class="seperator"></i>
+                        <a href="rti.html">RTI</a>
+                        <i class="seperator"></i>
+                        <a href="pdf/MOU.pdf">MOU</a>
+                    </div>
+                    <div>
+                        <a href="admissions.html">Admission</a>
+                        <i class="seperator"></i>
+                        <a href="student_corner.html">Student</a>
+                        <i class="seperator"></i>
+                        <a href="faculty.html">Faculty</a>
+                    </div>
+                </div>
+                <div class="col-sm-4 footer-social">
+                    <a href="#!"><i class="fa fa-facebook" aria-hidden="true" title="Official Facebook Page"></i></a>
+                    <a href="https://github.com/iiitv"><i class="fa fa-github" aria-hidden="true"
+                                                          title="Github Group"></i></a>
+                    <a href="#!"><i class="fa fa-linkedin" aria-hidden="true" title="LinkedIn Profile"></i></a>
+                    <a href="#!" title=""><i class="fa fa-twitter" aria-hidden="true"
+                                             title="Official Twitter Account"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/jquery.paginate.min.js "></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/434d359724.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="popover"]').popover();
+        $('[data-toggle="popover"]').on('click', function (e) {
+            $('[data-toggle="popover"]').not(this).popover('hide');
+        });
+    });
+</script>
+
+
+<!--
+/********************************
+**Contributors for this Website**
+*********************************
+
+The website has been designed and developed from scratch by the Students of IIIT Vadodara
+
+--Designed by--
+Mofid Ansari (ansarimofid@gmail.com)
+Pratyush Singh (singh.pratyush96@gmail.com)
+
+--Core Developers--
+Mofid Ansari (ansarimofid@gmail.com)
+Pratyush Singh (singh.pratyush96@gmail.com)
+Saurabh Jain (saurabhjn76@gmail.com)
+
+--Supporting Developers--
+RajuKoushik (g.rajukoushik@gmail.com)
+Kamal Awasthi (kamalawasthi97@gmail.com)
+Avi Aryan (avi.aryan123@gmail.com)
+
+--Contribution through reporting issues--
+Harish Krupo (harishkrupo@gmail.com)
+Shalinee Singh (shalinee43@gmail.com)
+Mayank Maurya (mayankm522@gmail.com)
+Navneet Nandan (navneet.nandan8@gmail.com)
+Prem Chand Saini (premchandsaini779@gmail.com)
+Unni Rajendra (unni332265@gmail.com)
+Ravi Kishan Jha (ravikishan77@gmail.com)
+Ankit Kumar (ankit.kumar071460@yahoo.com)
+
+-->
+</body>
+
+</html>

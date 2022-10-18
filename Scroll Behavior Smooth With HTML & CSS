@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html
+        {
+            scroll-behavior: smooth;
+        }
+        #section1
+        {
+            height: 800px;
+            width: 100%;
+            background-color: pink;
+        }
+        #section2
+        {
+            height: 800px;
+            width: 100%;
+            background-color: yellow;
+        }
+        *
+        {
+            padding: 0px;
+            margin: 0px;
+        }
+        h2
+        {
+            text-align: center;
+        }
+    </style>
+   </head>
+   <body>
+    <h2>Scroll behavior</h2>
+    <div id="section1">
+        <h1>section 1</h1>
+        <a href="#section2">click to calibrate next page</a>
+    </div>
+    <div id="section2">
+        <h1>section 2</h1>
+        <a href="#section1">click to calibrate next page</a>
+    </div>    
+   </body>
+   <html>

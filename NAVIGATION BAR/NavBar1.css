@@ -1,0 +1,59 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    nav {
+        background-color: #abb7b8;
+        height: 80px;
+        width: 100%;
+    }
+
+    .logo {
+        /* color: #ccdae7; */
+        /* font: "Inter Display"; */
+        font-size: 50px;
+        padding: 0px 100px;
+        margin-top: 8px;
+        font-weight: bold;
+        display: inline-flex;
+        /* display:flex;
+        justify-content:center; */
+        
+            /* background-image: -webkit-gradient(linear, left top, right top, from(#504a08), to(#a8e9d7)); */
+            background-image: linear-gradient(90deg,#3d2348, #f40bb2);
+            -webkit-background-clip: text;
+            /* background-clip: text; */
+            -webkit-text-fill-color: transparent;
+        }
+
+        nav ul {
+            float: right;
+            margin-right: 20px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            line-height: 80px;
+            margin: 0 5px;
+
+        }
+
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 17px;
+            padding: 7px 13px;
+            border-radius: 5px;
+        }
+
+        .active,
+        a:hover {
+            background: #1b9bff;
+            transition: 0.5s;
+
+        }
+</style>

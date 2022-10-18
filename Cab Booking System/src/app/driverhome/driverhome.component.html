@@ -1,0 +1,25 @@
+<app-navbar></app-navbar>
+<div class="rideDetails mainDiv">
+    <div style="margin-left: 45%; padding-bottom: 3%;">Available Rides</div>
+    <table style="width: -webkit-fill-available;">
+    
+        <tbody>
+            <tr>
+                <th>Source</th>
+                <th>Destination</th>
+                <th>Fare</th>
+            </tr>
+            <ng-container *ngFor="let ride of availableRides">
+                <tr>
+                    <td>{{ride.source}}</td>
+                    <td>{{ride.destination}}</td>
+                    <td>{{ride.fare}}</td>
+                    <td><button type="button" class="btn btn-success" (click)="acceptRide($event)" id="{{ride.id}}">Accept</button></td>
+                    <td><button type="button" class="btn btn-danger"  (click)="rejectRide($event)" id="{{ride.id}}">Reject</button></td>
+                </tr>
+            </ng-container>
+        </tbody>
+    </table>
+    <br>
+    <button type="button" style="float:right" class="btn btn-info"  (click)="showDriverRides()">Your Rides</button>
+    </div>

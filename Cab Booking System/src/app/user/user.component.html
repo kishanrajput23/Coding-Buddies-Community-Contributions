@@ -1,0 +1,50 @@
+<app-navbar></app-navbar>
+<div style="min-width: 100%; min-height: 100%;">
+  <br>
+  <div class="container UserDetailsDiv">
+      <h2 class="textual text-center">Please enter details</h2>
+      <form #newLoginForm="ngForm" (ngSubmit)="booking(newLoginForm.value)">
+          <!--small [class.text-danger]="msg.status == 500">{{msg.message}}</small!-->
+ 
+          <div class="form-outline mb-4" class="form-group"
+          [ngClass]="{'error': newLoginForm.controls.source?.invalid && newLoginForm.controls.source?.touched}">
+          <label class="form-label" required for="form2Example17">Source</label>
+          <input type="text" ngModel id="source" required pattern="^[a-zA-Z0-9]+$"
+              placeholder="Enter source" name="source" class="form-control form-control-lg" />
+          
+          <em *ngIf="newLoginForm.controls.source?.invalid && (newLoginForm.controls.source?.touched)"
+              class="text-danger">please provide valid source</em>
+      </div>
+      <div class="form-outline mb-4" class="form-group"
+          [ngClass]="{'error': newLoginForm.controls.destination?.invalid && newLoginForm.controls.destination?.touched}">
+          <label class="form-label" required for="form2Example17">Destination</label>
+          <input type="text" ngModel id="destination" required pattern="^[a-zA-Z0-9]+$" name="destination"
+              placeholder="Enter destination" class="form-control form-control-lg" />
+          <em *ngIf="newLoginForm.controls.destination?.invalid && (newLoginForm.controls.destination?.touched)"
+              class="text-danger">please provide valid destination</em>
+      </div>
+      <div>
+        <label for="cars" style="color: black;margin-right: 2%;">Choose a car:</label>
+        
+        <select id="carType" [(ngModel)]="carType" name="carType" style="min-width: 100%;" (change)="dropdownChange()" >
+          <option value="">Choose your Car type</option>
+          <option value="volvo">Volvo</option>
+          <option value="saab">Benz</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
+        </div>
+      <div [hidden]="validDetails" >Fare: {{fare}}</div>
+
+          <div>
+            <button class="btn btn-success btn-lg btn-block" [disabled]="newLoginForm.form.invalid" type="submit">Book</button>
+            <button class="btn btn-dark btn-lg btn-block" [routerLink]="['/login']" type="submit">Back</button>
+         <!-- <button type="”button”" (click)="displayUserRides()" class="btn btn-info" style="margin-left: 67%;">Your Rides</button>-->
+          </div>
+      </form>
+
+      <br>
+  </div>
+  
+  <br><br><br><br><br><br><br><br>
+</div>

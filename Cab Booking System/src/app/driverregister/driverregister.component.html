@@ -1,0 +1,74 @@
+<div>
+    <br>
+    <div class="container mainDiv">
+        <h2 class="textual text-center">Driver Registeration</h2>
+
+        <form #newLoginForm="ngForm" (ngSubmit)="registerDriver(newLoginForm.value)" autocomplete="off" novalidate>
+            <div class="d-flex align-items-center mb-3 pb-1">
+                <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
+                <span class="h1 fw-bold mb-0">Cab Booking System</span>
+            </div>
+            <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
+            <div class="form-outline mb-4" class="form-group"
+                [ngClass]="{'error': newLoginForm.controls.firstname?.invalid && newLoginForm.controls.firstname?.touched}">
+                <label class="form-label" required for="form2Example17">Firstname</label>
+                <input type="text" ngModel id="firstname" required pattern="^[a-zA-Z0-9]+$"
+                    placeholder="Enter Firstname" name="firstname" class="form-control form-control-lg" />
+                <em *ngIf="newLoginForm.controls.firstname?.invalid && (newLoginForm.controls.firstname?.touched)"
+                    class="text-danger">please provide valid firstname</em>
+            </div>
+            <div class="form-outline mb-4" class="form-group"
+                [ngClass]="{'error': newLoginForm.controls.lastname?.invalid && newLoginForm.controls.lastname?.touched}">
+                <label class="form-label" required for="form2Example17">Lastname</label>
+                <input type="text" ngModel id="lastname" required pattern="^[a-zA-Z0-9]+$" name="lastname"
+                    placeholder="Enter Lastname" class="form-control form-control-lg" />
+                <em *ngIf="newLoginForm.controls.lastname?.invalid && (newLoginForm.controls.lastname?.touched)"
+                    class="text-danger">please provide valid lastname</em>
+            </div>
+            <div class="form-outline mb-4" class="form-group"
+                [ngClass]="{'error': newLoginForm.controls.username?.invalid && newLoginForm.controls.username?.touched}">
+                <label class="form-label" required for="form2Example17">Username</label>
+                <input type="text" ngModel id="username" required pattern="^[a-zA-Z0-9]+$" name="username"
+                    placeholder="Enter Username" class="form-control form-control-lg" />
+                <em *ngIf="newLoginForm.controls.username?.invalid && (newLoginForm.controls.username?.touched)"
+                    class="text-danger">please provide valid username</em>
+            </div>
+            <div class="form-outline mb-4" class="form-group"
+                [ngClass]="{'error': newLoginForm.controls.password?.invalid && newLoginForm.controls.password?.touched}">
+                <label class="form-label" required for="form2Example27">Password</label>
+                <input type="password" ngModel name="password" pattern="^[a-zA-Z0-9]+$" required id="password"
+                    placeholder="Enter password" class="form-control form-control-lg" />
+                <em *ngIf="newLoginForm.controls.password?.invalid && (newLoginForm.controls.password?.touched)"
+                    class="text-danger">please provide valid password</em>
+            </div>
+            <div class="form-outline mb-4" class="form-group"
+            [ngClass]="{'error': newLoginForm.controls.phoneNumber?.invalid && newLoginForm.controls.phoneNumber?.touched}">
+            <label class="form-label" required for="form2Example17">Phone Number</label>
+            <input type="text" ngModel id="phoneNumber" required pattern="^[0-9]+$"
+                placeholder="Enter phoneNumber" name="phoneNumber" class="form-control form-control-lg" />
+            <em *ngIf="newLoginForm.controls.phoneNumber?.invalid && (newLoginForm.controls.phoneNumber?.touched)"
+                class="text-danger">please provide valid Phone number</em>
+        </div>
+        <div class="form-outline mb-4" class="form-group"
+        [ngClass]="{'error': newLoginForm.controls.vehicleNumber?.invalid && newLoginForm.controls.vehicleNumber?.touched}">
+        <label class="form-label" required for="form2Example17">Vehicle Number</label>
+        <input type="text" ngModel id="vehicleNumber" required pattern="^[a-zA-Z0-9]+$"
+            placeholder="Enter Vehicle Number" name="vehicleNumber" class="form-control form-control-lg" />
+        <em *ngIf="newLoginForm.controls.vehicleNumber?.invalid && (newLoginForm.controls.vehicleNumber?.touched)"
+            class="text-danger">please provide valid vehicleNumber</em>
+    </div>
+            <div class="pt-1 mb-4">
+                <button class="btn btn-dark btn-lg btn-block" [disabled]="newLoginForm.form.invalid"
+                    type="submit">Register</button>
+            </div>
+          
+            <a href="#!" class="small text-muted">Terms of use.</a>
+            <a href="#!" class="small text-muted">Privacy policy</a>
+        </form>
+
+
+
+        <br>
+    </div>
+    <br><br><br><br><br><br><br><br>
+</div>

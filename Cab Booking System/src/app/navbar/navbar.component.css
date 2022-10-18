@@ -1,0 +1,13 @@
+.navbar{
+   background-color: gray;
+}
+
+.mainHeading{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.btn{
+    margin-right: 1%;
+    color: honeydew;
+}
