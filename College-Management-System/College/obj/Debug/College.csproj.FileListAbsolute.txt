@@ -1,0 +1,206 @@
+D:\Projjects\College\College\College\bin\Debug\College.exe.config
+D:\Projjects\College\College\College\obj\Debug\College.MainForm.resources
+D:\Projjects\College\College\College\obj\Debug\College.Properties.Resources.resources
+D:\Projjects\College\College\College\obj\Debug\College.csproj.GenerateResource.Cache
+D:\Projjects\College\College\College\bin\Debug\College.exe
+D:\Projjects\College\College\College\bin\Debug\College.pdb
+D:\Projjects\College\College\College\obj\Debug\College.exe
+D:\Projjects\College\College\College\obj\Debug\College.pdb
+D:\Projjects\College\College\College\obj\Debug\College.controlStudents.resources
+D:\Projjects\College\College\College\obj\Debug\College.ErrorBox.resources
+D:\Projjects\College\College\College\obj\Debug\College.YesNo.resources
+D:\Projjects\College\College\College\obj\Debug\College.GenerateFee.resources
+D:\Projjects\College\College\College\obj\Debug\College.controlSettings.resources
+D:\Projjects\College\College\College\obj\Debug\College.Done.resources
+D:\Projjects\College\College\College\obj\Debug\College.PayFee.resources
+D:\Projjects\College\College\College\obj\Debug\RdlCompile.cache
+D:\Projjects\College\College\College\obj\Debug\RdlCompile.compiled
+D:\Projjects\College\College\College\obj\Debug\College.ReportPayFee.resources
+D:\Projjects\College\College\College\obj\Debug\College.controlExpenses.resources
+D:\Projjects\College\College\College\obj\Debug\College.SelectDate.resources
+D:\Projjects\College\College\College\obj\Debug\College.SelectMonth.resources
+D:\Projjects\College\College\College\obj\Debug\College.controlStaff.resources
+D:\Projjects\College\College\College\obj\Debug\College.PaySalary.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportPayrollSlip.resources
+D:\Projjects\College\College\College\obj\Debug\College.ChangeSecurity.resources
+D:\Projjects\College\College\College\obj\Debug\College.Login.resources
+D:\Projjects\College\College\College\obj\Debug\College.controlReports.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportSingleStudentProfle.resources
+D:\Projjects\College\College\College\obj\Debug\College.SelectBatch.resources
+D:\Projjects\College\College\College\obj\Debug\College.SelectYear.resources
+D:\Projjects\College\College\College\obj\Debug\College.ManageClasses.resources
+D:\Projjects\College\College\College\obj\Debug\College.ManageBatch.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportBatchStudents.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportSameBatch.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportStudentsOnScholarship.resources
+D:\Projjects\College\College\College\obj\Debug\College.controlDashboard.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportMonthlyExpenditure.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportDailyExpenditure.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportAnnualExpenditure.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportMonthlyStatement.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportMonthlySalary.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportClassMonthlyUnpaid.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportMonthlyUnpaid.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportTotalUnpaid.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportAnnualPaidFee.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportMonthlyFee.resources
+D:\Projjects\College\College\College\obj\Debug\College.ManageQualifications.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportAllStaff.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportStaffProfile.resources
+D:\Projjects\College\College\College\obj\Debug\College.BackupandRestore.resources
+D:\Projjects\College\College\College\obj\Debug\College.MarkStudentAttendance.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportStudentAttendance.resources
+D:\Projjects\College\College\College\obj\Debug\College.ReportClassAttendance.resources
+D:\Projjects\College\College\College\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Projjects\College\College\College\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Projjects\College\College\College\bin\Debug\Microsoft.VisualBasic.dll
+D:\Projjects\College\College\College\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\Projjects\College\College\College\bin\Debug\System.Data.dll
+D:\Projjects\College\College\College\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+D:\Projjects\College\College\College\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College\College\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College\College\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College\College\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College\College\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College\College\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College\College\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College\College\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College\College\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College\College\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College\College\obj\Debug\College.csprojResolveAssemblyReference.cache
+D:\Projjects\College\College Online\College\bin\Debug\College.exe.config
+D:\Projjects\College\College Online\College\obj\Debug\College.exe
+D:\Projjects\College\College Online\College\obj\Debug\College.pdb
+D:\Projjects\College\College Online\College\bin\Debug\College.exe
+D:\Projjects\College\College Online\College\bin\Debug\College.pdb
+D:\Projjects\College\College Online\College\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Projjects\College\College Online\College\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Projjects\College\College Online\College\bin\Debug\Microsoft.VisualBasic.dll
+D:\Projjects\College\College Online\College\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\Projjects\College\College Online\College\bin\Debug\System.Data.dll
+D:\Projjects\College\College Online\College\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+D:\Projjects\College\College Online\College\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College Online\College\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College Online\College\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College Online\College\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College Online\College\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College Online\College\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College Online\College\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College Online\College\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College Online\College\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College Online\College\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projjects\College\College Online\College\obj\Debug\College.csprojResolveAssemblyReference.cache
+D:\Projjects\College\College Online\College\obj\Debug\College.BackupandRestore.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ChangeSecurity.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.controlDashboard.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.controlExpenses.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.controlReports.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.controlSettings.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.controlStaff.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.controlStudents.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.MarkStudentAttendance.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportAllStaff.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ManageQualifications.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportClassAttendance.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportMonthlySalary.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportClassMonthlyUnpaid.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportMonthlyUnpaid.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportStaffProfile.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportStudentAttendance.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportTotalUnpaid.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportAnnualPaidFee.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportMonthlyFee.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportMonthlyStatement.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportAnnualExpenditure.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportMonthlyExpenditure.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.Done.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ErrorBox.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.GenerateFee.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.Login.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.MainForm.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ManageBatch.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ManageClasses.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.PayFee.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.PaySalary.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.Properties.Resources.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportBatchStudents.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportDailyExpenditure.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportPayFee.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportPayrollSlip.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportSameBatch.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportSingleStudentProfle.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.ReportStudentsOnScholarship.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.SelectBatch.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.SelectDate.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.SelectMonth.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.SelectYear.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.YesNo.resources
+D:\Projjects\College\College Online\College\obj\Debug\College.csproj.GenerateResource.Cache
+D:\Projjects\College\College Online\College\obj\Debug\RdlCompile.cache
+D:\Projjects\College\College Online\College\obj\Debug\RdlCompile.compiled
+D:\Projjects\College\College Online\College\obj\Debug\College.Athorize.resources
+D:\Projjects\College\College Online\College\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\working projects\College Online\College\obj\Debug\College.csprojAssemblyReference.cache
+D:\working projects\College Online\College\obj\Debug\College.Athorize.resources
+D:\working projects\College Online\College\obj\Debug\College.BackupandRestore.resources
+D:\working projects\College Online\College\obj\Debug\College.ChangeSecurity.resources
+D:\working projects\College Online\College\obj\Debug\College.controlDashboard.resources
+D:\working projects\College Online\College\obj\Debug\College.controlExpenses.resources
+D:\working projects\College Online\College\obj\Debug\College.controlReports.resources
+D:\working projects\College Online\College\obj\Debug\College.controlSettings.resources
+D:\working projects\College Online\College\obj\Debug\College.controlStaff.resources
+D:\working projects\College Online\College\obj\Debug\College.controlStudents.resources
+D:\working projects\College Online\College\obj\Debug\College.MarkStudentAttendance.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportAllStaff.resources
+D:\working projects\College Online\College\obj\Debug\College.ManageQualifications.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportClassAttendance.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportMonthlySalary.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportClassMonthlyUnpaid.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportMonthlyUnpaid.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportStaffProfile.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportStudentAttendance.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportTotalUnpaid.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportAnnualPaidFee.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportMonthlyFee.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportMonthlyStatement.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportAnnualExpenditure.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportMonthlyExpenditure.resources
+D:\working projects\College Online\College\obj\Debug\College.Done.resources
+D:\working projects\College Online\College\obj\Debug\College.ErrorBox.resources
+D:\working projects\College Online\College\obj\Debug\College.GenerateFee.resources
+D:\working projects\College Online\College\obj\Debug\College.Login.resources
+D:\working projects\College Online\College\obj\Debug\College.MainForm.resources
+D:\working projects\College Online\College\obj\Debug\College.ManageBatch.resources
+D:\working projects\College Online\College\obj\Debug\College.ManageClasses.resources
+D:\working projects\College Online\College\obj\Debug\College.PayFee.resources
+D:\working projects\College Online\College\obj\Debug\College.PaySalary.resources
+D:\working projects\College Online\College\obj\Debug\College.Properties.Resources.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportBatchStudents.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportDailyExpenditure.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportPayFee.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportPayrollSlip.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportSameBatch.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportSingleStudentProfle.resources
+D:\working projects\College Online\College\obj\Debug\College.ReportStudentsOnScholarship.resources
+D:\working projects\College Online\College\obj\Debug\College.SelectBatch.resources
+D:\working projects\College Online\College\obj\Debug\College.SelectDate.resources
+D:\working projects\College Online\College\obj\Debug\College.SelectMonth.resources
+D:\working projects\College Online\College\obj\Debug\College.SelectYear.resources
+D:\working projects\College Online\College\obj\Debug\College.YesNo.resources
+D:\working projects\College Online\College\obj\Debug\College.csproj.GenerateResource.cache
+D:\working projects\College Online\College\obj\Debug\RdlCompile.cache
+D:\working projects\College Online\College\obj\Debug\RdlCompile.compiled
+D:\working projects\College Online\College\obj\Debug\College.csproj.CoreCompileInputs.cache
+D:\working projects\College Online\College\obj\Debug\College.exe
+D:\working projects\College Online\College\obj\Debug\College.pdb
+D:\working projects\College Online\College\bin\Debug\College.exe.config
+D:\working projects\College Online\College\bin\Debug\College.exe
+D:\working projects\College Online\College\bin\Debug\College.pdb
+D:\working projects\College Online\College\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\working projects\College Online\College\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\working projects\College Online\College\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\working projects\College Online\College\bin\Debug\Microsoft.VisualBasic.dll
+D:\working projects\College Online\College\bin\Debug\System.Data.dll
+D:\working projects\College Online\College\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\working projects\College Online\College\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+D:\working projects\College Online\College\obj\Debug\College.csproj.CopyComplete
