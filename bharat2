@@ -1,0 +1,10 @@
+In Pointers,
+int a = 10;
+int *p;
+int **q; // It is valid.
+p = &a;
+q = &p;
+
+// Whereas in references,
+int &p = a;
+int &&q = p; // It is reference to reference, so it is an error
