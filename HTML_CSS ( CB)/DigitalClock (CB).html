@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock using HTML CSS</title>
+    <style>
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+
+    background-color: #131419;
+  font-family: Roboto, sans-serif;
+}
+
+.date {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30vmin;
+  font-weight: 300;
+  color: #fff;
+ padding-left: 20px;
+ padding-right: 30px;
+  box-shadow: -5px -5px 5px 0 rgba(255, 255, 255, 0.04),
+    7px 7px 7px 0 rgba(0, 0, 0, 2);
+}
+.date .sec {
+  font-size: 0.5em;
+}
+
+.date .min::before,
+.date .sec::before {
+  content: ":";
+
+}
+
+@supports (-webkit-background-clip: text) {
+  .date {
+    background: #fff;
+    filter: saturate(2) brightness(2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+    </style>
+</head>
+<body>
+    
+<div class="date"><span class="hour"></span><span class="min"></span><span class="sec"></span></div>
+
+
+    <script>
+console.clear();
+
+function clock() {
+	let d = new Date(),
+			h = d.getHours(),
+			m = d.getMinutes(),
+			s = d.getSeconds();
+
+	if (h < 10) h = `0${h}`;
+	if (m < 10) m = `0${m}`;
+	if (s < 10) s = `0${s}`;
+
+	document.querySelector('.hour').textContent = h;
+	document.querySelector('.min').textContent = m;
+	document.querySelector('.sec').textContent = s;
+
+	setTimeout(clock, 1000);
+}
+
+clock();
+    </script>
+</body>
+</html>
