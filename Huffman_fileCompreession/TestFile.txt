@@ -1,0 +1,2 @@
+"It's not at all important to get it right the first time. It's vitally important to get it right the last time." - Andrew Hunt and David Thomas
+"The best way to predict the future is to implement it." - David Heinemeier Hansson
