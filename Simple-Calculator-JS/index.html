@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, user-scalable=no" />
+    </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <link id="favicon" rel="icon" href="favicon-dark.svg" color="#DDD" />
+    <link rel="stylesheet" type="text/css" href="calculator.css" /> 
+
+    <script src="calculator.js" defer></script>
+    <body class="setting">
+        <header>
+            <h1>Simple Calculator</h1>
+        </header>
+       
+        <button type="button" class="btn btn-light light-btn">Light</button>
+        
+        <div class="calculator">
+            <input type="text" class="calculator-screen" id="calculator-screen" disabled />
+
+            <div id="noBtnContainer" class="noBtnContainer">
+
+                <button type="button" value="1">1</button>
+                <button type="button" value="2">2</button>
+                <button type="button" value="3">3</button>
+
+                <button type="button" value="4">4</button>
+                <button type="button" value="5">5</button>
+                <button type="button" value="6">6</button>
+
+                <button type="button" value="7">7</button>
+                <button type="button" value="8">8</button>
+                <button type="button" value="9">9</button>
+
+                <button type="button" class="decimal" value=".">.</button>
+                <button type="button" value="0">0</button>
+                <button type="button" class="all-clear" value="all-clear">AC</button>
+
+                <button type="button" class="operator" value="+">+</button>
+                <button type="button" class="operator" value="-">-</button>
+                <button type="button" class="operator" value="*">&times;</button>
+                <button type="button" class="operator" value="/">&divide;</button>
+                
+                <button type="button" class="equal-sign" value="=">=</button>
+            </div>
+        <div>
+    </body>
+
+</html>
