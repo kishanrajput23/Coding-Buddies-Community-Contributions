@@ -1,0 +1,126 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 70px;
+}
+  
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.setting{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    align-items: center;
+
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.calculator-screen {
+    width: 100%;
+    font-size: 50px;
+    height: 70px;
+    background-color: aliceblue;
+    color: black;
+    text-align: left;
+    border-radius: 4px;
+    border: 2px solid #00CED1;
+    width: 100%;
+    height: 100px;
+    padding-left: 15px;
+}
+
+button {
+    height: 60px;
+    width: 80px;
+    font-size: 3rem;
+    margin-top: 12;
+    background-color: darkgrey;
+    color: whitesmoke;
+    border-radius: 5px;
+    border-color: lightskyblue;
+}
+
+button:hover{
+    background-color: black ;
+}
+
+.operator{
+    border-radius: 20px;
+    border-color: greenyellow;
+    background-color: darkseagreen;
+    grid-row-start: 1;
+}
+
+[value~="+"] {
+    grid-column-start: 4;
+}
+
+[value~="-"] {
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+[value~="*"] {
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+
+[value~="/"] {
+    grid-column-start: 4;
+    grid-row-start: 4;
+}
+
+
+.all-clear{
+    background-color: firebrick;
+}
+
+.all-clear:hover{
+    background-color: darkred;
+}
+
+.equal-sign {
+    background-color: #2e86c0;
+    border-color: #337cac;
+    color: #fff;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+  
+.equal-sign:hover {
+background-color: #4e9ed4;
+}
+
+.noBtnContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+/* toggle switch settings. Taken from https://alvarotrigo.com/blog/toggle-switch-css/ */
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.light-btn{
+    margin-bottom: 100px;
+}
