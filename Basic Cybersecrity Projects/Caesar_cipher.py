@@ -47,7 +47,7 @@ while(x):
     mode=input("Choose your mode (e/d): ").lower()
     if mode == 'e':
         type="decrypt"
-        print("____________________ Encrption started ____________________")
+        print("____________________ Encrption started ______________________")
         key=int(input(f"Enter the key (1-{lenght}): "))
         text=input("Enter your Plaintext: ").lower()
         final = encrypt_decrypt(text,mode,key)
